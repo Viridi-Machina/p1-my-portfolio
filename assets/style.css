@@ -9,6 +9,15 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     /* General font styles */
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Main content */
+main {
+    /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
+    flex: 1 0 auto;
 }
