@@ -33,6 +33,23 @@ footer {
     color: oklch(100% 0 0);
 }
 
+.social-networks {
+    font-size: 1.5em;
+    padding: 10px 50px 10px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer i {
+    color: oklch(100% 0 0);
+}
+
 /* Main content */
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
