@@ -33,6 +33,19 @@ footer {
     color: oklch(100% 0 0);
 }
 
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid oklch(100% 0 0);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+footer h3 {
+    font-size: 0.7em;
+    padding: 10px 0 10px 0;
+}
+
 .social-networks {
     display: flex;
     flex-direction: row;
