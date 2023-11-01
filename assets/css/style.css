@@ -20,6 +20,11 @@ header {
     background-color: rgb(54, 199, 163);
 }
 
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
 main {
     background-color: aqua;
 }
