@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* Body */
 body {
     display: flex;
     flex-direction: column;
@@ -16,6 +17,7 @@ body {
     font-family: 'Figtree', sans-serif;
 }
 
+/* Header */
 header {
     background-color: oklch(55.71% 0.095 206.08 / 87%);
 }
@@ -25,6 +27,7 @@ header a {
     color: oklch(100% 0 0);
 }
 
+/* Footer */
 footer {
     background-color: oklch(55.71% 0.095 206.08 / 87%);
     color: oklch(100% 0 0);
