@@ -1,5 +1,5 @@
 /* Goggle fonts import: IBM Plex Sans */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Josefin+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
 
 /* Default browser style-override selector */
 * {
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     /* General font styles */
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Figtree', sans-serif;
 }
 
 header {
