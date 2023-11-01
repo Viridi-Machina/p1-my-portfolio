@@ -36,7 +36,7 @@ footer {
 footer > div {
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid oklch(100% 0 0);
+    border-bottom: 2px solid oklch(100% 0 0);
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
 }
