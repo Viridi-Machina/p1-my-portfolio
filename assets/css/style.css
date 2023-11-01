@@ -25,10 +25,6 @@ header a {
     color: oklch(100% 0 0);
 }
 
-main {
-    background-color: oklch(83.43% 0.095 206.08 / 87%);
-}
-
 footer {
     background-color: oklch(55.71% 0.095 206.08 / 87%);
     color: oklch(100% 0 0);
@@ -38,4 +34,5 @@ footer {
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
     flex: 1 0 auto;
+    background-color: oklch(83.43% 0.095 206.08 / 87%);
 }
