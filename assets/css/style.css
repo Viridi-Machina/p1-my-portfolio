@@ -16,6 +16,18 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+header {
+    background-color: rgb(54, 199, 163);
+}
+
+main {
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(126, 126, 126);
+}
+
 /* Main content */
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
