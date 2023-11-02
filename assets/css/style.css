@@ -17,16 +17,6 @@ body {
     font-family: 'Figtree', sans-serif;
 }
 
-/* Main */
-#profile-image {
-    background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
-    height: 20vh;
-    width: 20vh;
-    /* Squircle styling for profile image */
-    border-radius: 20%;
-
-}
-
 /* Header */
 header {
     background-color: oklch(55.71% 0.095 206.08 / 87%);
@@ -35,6 +25,16 @@ header {
 header a {
     text-decoration: none;
     color: oklch(100% 0 0);
+}
+
+/* Main */
+#profile-image {
+    background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
+    height: 20vh;
+    width: 20vh;
+    /* Squircle styling for profile image */
+    border-radius: 20%;
+
 }
 
 /* Footer */
