@@ -29,6 +29,9 @@ header a {
 
 /* Main */
 main {
+    /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
+    flex: 1 0 auto;
+    background-color: oklch(83.43% 0.095 206.08 / 87%);
     display: flex;
     align-items: top;
     justify-content: center;
@@ -77,9 +80,3 @@ footer h3 {
     padding: 10px 50px 10px 50px;
 }
 
-/* Main content */
-main {
-    /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
-    flex: 1 0 auto;
-    background-color: oklch(83.43% 0.095 206.08 / 87%);
-}
