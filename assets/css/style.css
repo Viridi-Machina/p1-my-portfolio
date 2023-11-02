@@ -28,6 +28,13 @@ header a {
 }
 
 /* Main */
+main {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 #profile-image {
     background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
     height: 20vh;
