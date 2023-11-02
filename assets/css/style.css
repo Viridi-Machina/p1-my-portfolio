@@ -40,6 +40,7 @@ main {
     height: 20vh;
     width: 20vh;
     /* Squircle styling for profile image */
+    border: 2px solid oklch(100% 0 0);
     border-radius: 20%;
 
 }
