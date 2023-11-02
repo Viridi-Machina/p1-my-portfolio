@@ -19,7 +19,7 @@ body {
 
 /* Main */
 #profile-image {
-    background: url("../images/jacen-profile-picture.jpg") no-repeat center / cover;
+    background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
     height: 100px;
     width: 100px;
     /* Circular styling for profile image */
