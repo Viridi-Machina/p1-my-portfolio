@@ -15,8 +15,7 @@ body {
     min-height: 100vh;
     /* General font styles */
     font-family: 'Figtree', sans-serif;
-    /* Background image blurred */
-    
+    color: oklch(100% 0 0);
 }
 
 /* Header */
@@ -85,6 +84,24 @@ main {
     z-index: 11;
 }
 
+#about-me {
+    position: absolute;
+    top: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: oklch(0% 0 0 / 19.2%);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
+}
+
+main h2 {
+
+}
+
+main p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
 /* Footer */
 footer {
     /*background-color: oklch(55.71% 0.095 206.08 / 87%);*/
