@@ -24,6 +24,12 @@ header {
     background-color: oklch(55.71% 0.095 206.08 / 87%);
 }
 
+header > div {
+    position: relative;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
 header a {
     text-decoration: none;
     color: oklch(100% 0 0);
