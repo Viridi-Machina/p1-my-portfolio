@@ -64,11 +64,11 @@ main {
 
 #profile-image {
     background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
-    height: 20vh;
-    width: 20vh;
+    height: 150px;
+    width: 150px;
     /* Squircle styling for profile image */
     border: 2px solid oklch(100% 0 0);
-    border-radius: 20%;
+    border-radius: 50%;
     z-index: 10;
 
 }
