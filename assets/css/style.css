@@ -21,9 +21,9 @@ body {
 
 /* Header */
 header {
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: oklch(0% 0 0 / 19.2%);
     backdrop-filter: blur(25px);
-    box-shadow: 0 5px 20px #00000085;
+    box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
 }
 
 header > div {
@@ -68,21 +68,21 @@ main {
     width: 150px;
     /* Circle styling for profile image */
     border-radius: 50%;
-    z-index: 10;
     position: absolute;
-    box-shadow: 3px 3px 10px #000000b0;
+    box-shadow: 3px 3px 10px oklch(0% 0 0 / 69.02%);
     top: 100px;
+    z-index: 10;
 }
 
+/* Extra detailing on profile image; circle-ring overlay */
 #profile-backdrop {
     height: 144px;
     width: 144px;
     border-radius: 50%;
-    z-index: 11;
-    border: solid 2px #e0e0e085;
+    border: solid 2px oklch(90.67% 0 0 / 52.16%);
     position: absolute;
     top: 103px;
-    mask-clip: border;
+    z-index: 11;
 }
 
 /* Footer */
@@ -91,7 +91,7 @@ footer {
     color: oklch(100% 0 0);
     background-color: rgba(0, 0, 0, 0.192);
     backdrop-filter: blur(25px);
-    box-shadow: 0 -5px 20px #00000085;
+    box-shadow: 0 -5px 20px oklch(0% 0 0 / 52.16%);
 }
 
 footer > div {
