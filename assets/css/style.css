@@ -15,6 +15,8 @@ body {
     min-height: 100vh;
     /* General font styles */
     font-family: 'Figtree', sans-serif;
+    /* Background image blurred */
+    
 }
 
 /* Header */
@@ -31,11 +33,24 @@ header a {
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
     flex: 1 0 auto;
-    background-color: oklch(83.43% 0.095 206.08 / 87%);
     display: flex;
     align-items: top;
     justify-content: center;
     padding-top: 50px;
+}
+
+#hero {
+    background-color: oklch(83.43% 0.095 206.08 / 87%);
+    /* Hero image taken from https://www.etsy.com/uk/listing/1434066291/geometric-lake-and-mountain-3-digital?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_uk_en_gb_e-art_and_collectibles-prints-digital_prints&utm_custom1=_k_CjwKCAjwkY2qBhBDEiwAoQXK5YtFF5RTxpAGHCvKSo4PhYEXfdH-GG6y6nd_EiV-a7fY0t7YmXeDERoC_YwQAvD_BwE_k_&utm_content=go_12576524531_120383100700_507649705825_pla-328046931108_c__1434066291engb_102858184&utm_custom2=12576524531&gad_source=1&gclid=CjwKCAjwkY2qBhBDEiwAoQXK5YtFF5RTxpAGHCvKSo4PhYEXfdH-GG6y6nd_EiV-a7fY0t7YmXeDERoC_YwQAvD_BwE */
+    background-image: url(../images/hero-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-top: 100vh;
+    width: 100vw;
+    max-height: 1258px;
+    position: absolute;
+    top: 0px;
+    z-index: -5;
 }
 
 #profile-image {
@@ -45,6 +60,7 @@ main {
     /* Squircle styling for profile image */
     border: 2px solid oklch(100% 0 0);
     border-radius: 20%;
+    z-index: 10;
 
 }
 
@@ -79,4 +95,3 @@ footer h3 {
     font-size: 1.5em;
     padding: 10px 50px 10px 50px;
 }
-
