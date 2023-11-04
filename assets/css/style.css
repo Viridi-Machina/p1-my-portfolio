@@ -95,12 +95,13 @@ main {
 }
 
 main h2 {
-
+    padding-left: 20px;
 }
 
 main p {
     letter-spacing: 1px;
     line-height: 25px;
+    padding: 0 10px 0 40px;
 }
 /* Footer */
 footer {
