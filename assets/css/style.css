@@ -101,6 +101,12 @@ main {
     z-index: -5;
 }
 
+#profile-center {
+    display: flex;
+    justify-content: center;
+    left: 50px;
+}
+
 #profile-image {
     background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
     height: 150px;
@@ -121,7 +127,6 @@ main {
     border: solid 2px oklch(90.67% 0 0 / 52.16%);
     position: absolute;
     top: 103px;
-    left: 3px;
     z-index: 11;
 }
 
