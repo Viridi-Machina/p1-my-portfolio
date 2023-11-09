@@ -21,6 +21,7 @@ body {
 /* Header */
 header {
     background-color: oklch(0% 0 0 / 19.2%);
+    /* Blur and box-shadow effect, layered above profile image */
     backdrop-filter: blur(25px);
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
     z-index: 15;
@@ -28,13 +29,29 @@ header {
 
 header > div {
     position: relative;
-    padding: 3px 0 5px 10px;
+    padding: 3px 10px 5px 10px;
     letter-spacing: 2px;
 }
 
 header a {
     text-decoration: none;
     color: oklch(100% 0 0);
+}
+
+/* Navbar menu styling */
+.menu {
+    font-size: 1.1em;
+    list-style-type: none;
+}
+
+.menu>li {
+    text-align: center;
+    margin: 0.6em 0;
+    padding: 0.4em 0;
+    border: solid 2px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* Main */
