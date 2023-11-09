@@ -80,6 +80,7 @@ main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
     flex: 1 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: top;
     justify-content: center;
     padding-top: 50px;
@@ -120,12 +121,11 @@ main {
     border: solid 2px oklch(90.67% 0 0 / 52.16%);
     position: absolute;
     top: 103px;
+    left: 3px;
     z-index: 11;
 }
 
 #about-me {
-    position: absolute;
-    top: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: oklch(0% 0 0 / 19.2%);
