@@ -1,4 +1,4 @@
-# OVERVIEW
+<!-- # OVERVIEW
 
 This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions to help elevate you to possible distinction status.
 
@@ -39,63 +39,56 @@ Markdown's not all that easy so sometimes you may want to use some tools to make
 # Table of Contents
 Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
 
-====================================== The Sections you Fill in are below with some instructions ==============================
+====================================== The Sections you Fill in are below with some instructions ============================== -->
 
-# PROJECT NAME
-🚨**Required** 
+# P1 - My Portfolio
 
-*replace the **PROJECT NAME** header with your project's name*
-- One or two paragraphs providing an overview of your project.
-- Write this as a sales pitch or commercial to entice users to interact with your site or how you want investors to purchase your website.
-- Include a picture of site that shows it in responsive states and links to deployed code: https://ui.dev/amiresponsive
+*My Portfolio* is a responsive personal resume designed for two primary user-types:
+- Employers screening and looking to hire new developers
+- Other developers looking for design inspiriation or looking for collaborative work
 
-## Live Site
-🚨**Required** 
+Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
 
-- Include a link to deployed project (typically a GitHub Page on  github.io)
+  > ***! Insert picture of final product in responsive states***
 
-## Repository
-🚨**Required** 
+  > ***! Insert link to repository***
 
-- Include a Link to the GitHub repository
+  > ***! Include a link to deployed project (typically a GitHub Page on  github.io)***
 
 ## Author
-🚨**Required** 
+Jacen Green
 
-DEVELOPER_NAME (take credit for the work you do!)
 
-## Table of Contents
-🚀 **merit & beyond**
+## Contents
 
 Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
 - [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/)
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
-# UX
-🚀 **merit & beyond**
+## UX
+> ## Target Audience
+> My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
+> 
+> Incidentally it could also be used by other front-end enthusiasts who might take inspiration for their own projects.
+>
+> The style and general theme of the site is designed to be gender neutral, with aestheitics and interactions that provoke comfort and curiosity.
 
-This particular section can be blank, it's just a wrapper for the child sections.
-
-The subsections provide insight into your UX process, focusing on why you made the user experience decisions you did. If the target audience and user base drove you to a certain look and feel call it out so the accessors can't be objective and say I don't like it. 
-
-## Target Audience
-🚀 **merit & beyond**
-
-Your site is most likely geared to a certain audience, and your design choices should tie into them, pay attention to age groups, genders, demographics, & interests of the people you are hoping to use your site. If it's everyone, say so.
-
-## Project Goals
-🚀 **merit & beyond**
+> ## Project Goals
 
 Write bullet points of what this site is trying to achieve.  
 - This site presents X to Y with specific features.
 - Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
 
-## User Stories
-🚀 **merit & beyond**
+> ## User Stories
+> ### Employer
+> "As an employer, I need a developer that can quickly showcase their skills and abilites, so that I can make a more straightforward and confident decision when recruiting"
+>
+> ### Experienced Developer
+> "As a font-end developer, I want to collaborate and seek help with my own projects, so that I can meet my own goals / deadlines and increase my social circle"
+>
+> ### New Developer
+> "As an aspiring developer learning HTML and CSS, I want to find inspiration, so that I can further my own skillset and create my own projects"
 
-This section lists outs as a X I want Y, so I can Z format. It helps drive out the features you will build.
-
-You can have many kinds of users so feel free to have one section or the subsections listed or more
 
 ### Site User Stories
 🚀 **merit & beyond**
