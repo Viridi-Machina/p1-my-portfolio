@@ -54,6 +54,28 @@ header a {
     font-weight: bold;
 }
 
+/* Navbar toggle and styles */
+.nav-toggle-label {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 1.4em;
+    cursor:none;
+}
+
+nav {
+    display: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
 /* Main */
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
