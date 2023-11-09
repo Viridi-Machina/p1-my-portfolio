@@ -60,7 +60,6 @@ header a {
     top: 12px;
     right: 15px;
     font-size: 1.4em;
-    cursor:none;
 }
 
 nav {
@@ -150,14 +149,6 @@ footer {
     background-color: rgba(0, 0, 0, 0.192);
     backdrop-filter: blur(25px);
     box-shadow: 0 -5px 20px oklch(0% 0 0 / 52.16%);
-}
-
-footer > div {
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 2px solid oklch(100% 0 0);
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
 }
 
 footer h3 {
