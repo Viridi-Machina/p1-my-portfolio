@@ -115,12 +115,6 @@ main {
     height: 0px;
 }
 
-/* Div positioning container for about me section including profile image */
-#about-me-section {
-    position: absolute;
-    top: 400px;
-}
-
 /* Selector to apply flex properties on both profile image and it's detailing */
 #profile-center {
     display: flex;
