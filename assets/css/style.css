@@ -101,6 +101,13 @@ main {
     z-index: -5;
 }
 
+/* Div positioning container for about me section including profile image */
+#about-me-section {
+    position:absolute;
+    top:400px;
+}
+
+/* Selector to apply flex properties on both profile image and it's detailing */
 #profile-center {
     display: flex;
     position: relative;
@@ -141,7 +148,7 @@ main {
 
 #about-me > h2 {
     padding-left: 175px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
