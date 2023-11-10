@@ -18,6 +18,14 @@ body {
     color: oklch(100% 0 0);
 }
 
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: oklch(100% 0 0);
+}
+
 /* Header */
 header {
     background-color: oklch(0% 0 0 / 19.2%);
@@ -27,20 +35,19 @@ header {
     z-index: 15;
 }
 
-header > div {
-    position: relative;
-    padding: 3px 10px 5px 10px;
-    letter-spacing: 2px;
+header>div {
+    padding: 5px 10px 5px 10px;
 }
 
 header a {
     text-decoration: none;
-    color: oklch(100% 0 0);
+    color: inherit;
 }
 
 /* Navbar menu styling */
 .menu {
     font-size: 1.1em;
+    letter-spacing: 2px;
     list-style-type: none;
 }
 
@@ -102,13 +109,13 @@ main {
 }
 
 .blank-space {
-    height:0px;
+    height: 0px;
 }
 
 /* Div positioning container for about me section including profile image */
 #about-me-section {
-    position:absolute;
-    top:400px;
+    position: absolute;
+    top: 400px;
 }
 
 /* Selector to apply flex properties on both profile image and it's detailing */
@@ -150,11 +157,10 @@ main {
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
 }
 
-#about-me > h2 {
+#about-me>h2 {
     margin-left: 175px;
     padding: 3px 0 3px 10px;
     font-size: 1.2em;
-    text-transform: uppercase;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -167,6 +173,7 @@ main p {
     line-height: 25px;
     padding: 0 40px 0 40px;
 }
+
 /* Footer */
 footer {
     /*background-color: oklch(55.71% 0.095 206.08 / 87%);*/
