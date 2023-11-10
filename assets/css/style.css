@@ -147,9 +147,15 @@ main {
 }
 
 #about-me > h2 {
-    padding-left: 175px;
+    margin-left: 175px;
+    padding: 3px 0 3px 10px;
     font-size: 1.2em;
     text-transform: uppercase;
+    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    background-color: oklch(90.67% 0 0 / 20%);
 }
 
 main p {
