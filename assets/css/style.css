@@ -64,13 +64,6 @@ header a {
 }
 
 /* Navbar toggle and styles */
-.nav-toggle-label {
-    position: absolute;
-    top: 12px;
-    right: 15px;
-    font-size: 1.4em;
-}
-
 nav {
     display: none;
 }
@@ -82,6 +75,13 @@ nav {
 
 #nav-toggle {
     display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 1.4em;
 }
 
 /* Main */
