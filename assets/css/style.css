@@ -101,6 +101,10 @@ main {
     z-index: -5;
 }
 
+.blank-space {
+    height:0px;
+}
+
 /* Div positioning container for about me section including profile image */
 #about-me-section {
     position:absolute;
@@ -161,7 +165,7 @@ main {
 main p {
     letter-spacing: 1px;
     line-height: 25px;
-    padding: 0 10px 0 40px;
+    padding: 0 40px 0 40px;
 }
 /* Footer */
 footer {
