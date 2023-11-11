@@ -48,6 +48,10 @@ header a {
     color: inherit;
 }
 
+header h1 {
+    text-transform: capitalize;
+}
+
 /* Navbar menu styling */
 .menu {
     font-size: 1.1em;
