@@ -127,52 +127,60 @@ main {
 
 #profile-image {
     background: url("../images/jacen-profile-picture-crop.jpg") no-repeat center / cover;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     /* Circle styling for profile image */
     border-radius: 50%;
     position: absolute;
     box-shadow: 3px 3px 10px oklch(0% 0 0 / 69.02%);
-    top: -100px;
+    top: -85px;
     left: 20px;
     z-index: 10;
 }
 
 /* Extra detailing on profile image; circle-ring overlay */
 #profile-backdrop {
-    height: 144px;
-    width: 144px;
+    height: 124px;
+    width: 124px;
     border-radius: 50%;
     border: solid 2px oklch(90.67% 0 0 / 52.16%);
     position: absolute;
-    top: -97px;
+    top: -82px;
     left: 23px;
     z-index: 11;
 }
 
 .about-me {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: oklch(0% 0 0 / 19.2%);
     backdrop-filter: blur(25px);
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
 }
 
-main h2 {
-   /* margin-left: 175px;
-    padding: 3px 0 3px 10px;
+#header-1,
+#header-2 {
+    margin-left: 150px;
+    padding: 3px 0 3px 0px;
     font-size: 1.2em;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-right: none;
-    background-color: oklch(90.67% 0 0 / 20%);*/
+    background-color: oklch(90.67% 0 0 / 20%);
+    text-align: end;
+}
+
+#header-2 {
+    margin-left: 120px;
 }
 
 main p {
     letter-spacing: 1px;
     line-height: 25px;
-    padding: 0 40px 0 40px;
+    padding: 8px 10px 0 10px;
+    text-align:right;
+    overflow: hidden;
 }
 
 #section-1,
