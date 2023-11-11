@@ -115,7 +115,7 @@ main {
     height: 0px;
 }
 
-/* Selector to apply flex properties on both profile image and it's detailing */
+/* Selector to apply flex properties and relative positioning for profile image and it's detailing */
 #profile-center {
     display: flex;
     position: relative;
@@ -146,7 +146,7 @@ main {
     z-index: 11;
 }
 
-#about-me {
+.about-me {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: oklch(0% 0 0 / 19.2%);
@@ -154,21 +154,26 @@ main {
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
 }
 
-#about-me>h2 {
-    margin-left: 175px;
+main h2 {
+   /* margin-left: 175px;
     padding: 3px 0 3px 10px;
     font-size: 1.2em;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-right: none;
-    background-color: oklch(90.67% 0 0 / 20%);
+    background-color: oklch(90.67% 0 0 / 20%);*/
 }
 
 main p {
     letter-spacing: 1px;
     line-height: 25px;
     padding: 0 40px 0 40px;
+}
+
+#section-1,
+#section-2 {
+    margin-top: 110px;
 }
 
 /* Footer */
