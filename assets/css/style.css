@@ -146,6 +146,29 @@ main {
     z-index: 11;
 }
 
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    position: relative;
+    top: 35px;
+    z-index: 12;
+    margin-right: 150px;
+}
+
+#html {
+    background: url(../images/html-logo.png) no-repeat center / cover;
+    height: 50px;
+    width: 50px;
+}
+
+#css {
+    background: url(../images/css-logo.png) no-repeat center / cover;
+    height: 50px;
+    width: 50px;
+}
+
 .about-me {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -188,7 +211,6 @@ main p {
 
 /* Footer */
 footer {
-    /*background-color: oklch(55.71% 0.095 206.08 / 87%);*/
     color: oklch(100% 0 0);
     background-color: rgba(0, 0, 0, 0.192);
     backdrop-filter: blur(25px);
