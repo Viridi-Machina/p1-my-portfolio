@@ -169,7 +169,6 @@ main {
 
 #header-2 {
     margin-left: calc(100vw - 154px);
-    padding-left: 0px;
 }
 
 main p {
@@ -180,9 +179,11 @@ main p {
     overflow: hidden;
 }
 
-#section-1,
+#section-1 {
+    margin-top: 0px;
+}
 #section-2 {
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 /* Footer */
