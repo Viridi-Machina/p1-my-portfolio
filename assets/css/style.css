@@ -220,6 +220,13 @@ main p {
     margin-bottom: 120px;
 }
 
+#section-3 a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 /* Footer */
 footer {
     color: oklch(100% 0 0);
