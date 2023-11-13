@@ -227,6 +227,10 @@ main p {
     font-weight: bold;
 }
 
+#section-3 a:hover {
+    color: oklch(83.43% 0.095 55.12 / 87%);
+}
+
 /* Footer */
 footer {
     color: oklch(100% 0 0);
