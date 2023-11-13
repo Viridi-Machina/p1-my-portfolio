@@ -161,12 +161,14 @@ main {
     background: url(../images/html-logo.png) no-repeat center / cover;
     height: 50px;
     width: 50px;
+    filter: saturate(0.7);
 }
 
 #css {
     background: url(../images/css-logo.png) no-repeat center / cover;
     height: 50px;
     width: 50px;
+    filter: saturate(0.7);
 }
 
 .about-me {
