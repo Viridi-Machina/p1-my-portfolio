@@ -207,23 +207,13 @@ main {
 #header-1,
 #header-2,
 #header-3 {
-    margin-left: calc(100vw - 130px);
     padding: 3px 10px 3px 0;
     font-size: 1.2em;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     border-right: none;
+    border-left: none;
     background-color: oklch(90.67% 0 0 / 20%);
     text-align: end;
-}
-
-#header-2 {
-    margin-left: calc(100vw - 154px);
-}
-
-#header-3 {
-    margin-left: calc(100vw - 162px);
 }
 
 main p {
@@ -236,15 +226,18 @@ main p {
 
 #section-1 {
     margin-top: 0px;
+    max-width: 450px;
 }
 
 #section-2 {
     margin-top: 80px;
+    max-width: 450px;
 }
 
 #section-3 {
     margin-top: 120px;
     margin-bottom: 120px;
+    max-width: 450px;
 }
 
 .contact-icons {
