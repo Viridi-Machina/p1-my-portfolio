@@ -177,7 +177,7 @@ main {
     flex-basis: auto;
     justify-content: space-evenly;
     position: relative;
-    top: 35px;
+    top: 45px;
     z-index: 12;
     margin-right: 150px;
 }
@@ -197,11 +197,12 @@ main {
 }
 
 .about-me {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     background-color: oklch(0% 0 0 / 19.2%);
     backdrop-filter: blur(25px);
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
+    border-radius: 15px;
 }
 
 #header-1,
@@ -250,7 +251,7 @@ main p {
     flex-basis: auto;
     justify-content: space-evenly;
     position: relative;
-    top: 25px;
+    top: 36px;
     z-index: 12;
     margin-right: 160px;
 }
