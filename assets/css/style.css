@@ -302,7 +302,13 @@ main p {
 
 /* Radio button styling */
 .radio-position {
-    margin: 20px 0 20px 50px;
+    margin: 20px 0 10px 40px;
+}
+
+.radio-position i  {
+    opacity: 0;
+    position: relative;
+    right: 10px;
 }
 
 .radio-style-label {
@@ -317,8 +323,14 @@ input[type="radio"] {
     display: none;
 }
 
-input[type="radio"]:checked+label {
+/* Highlights checked radio-query */
+input[type="radio"]:checked~label {
     background-color: oklch(90.67% 0 0 / 40%);
+}
+
+/* Displays check mark on checked radio-query */
+input[type="radio"]:checked~i {
+    opacity: 1;
 }
 
 .recruitment {
