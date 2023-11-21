@@ -373,6 +373,10 @@ input::placeholder {
     text-align: center;
 }
 
+.text-box-size {
+    height: 200px;
+}
+
 /* Footer */
 footer {
     color: oklch(100% 0 0);

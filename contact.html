@@ -41,25 +41,25 @@
                 <ul class="menu">
                     <!-- &lt and &gt allow < and > characters as text, in this case to show active page -->
                     <li><a href="index.html">
-                        <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
-                        <i class="fa-solid fa-house fa-fw"></i> Home
-                        <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
-                    </a></li>
-                <li><a href="portfolio.html">
-                        <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
-                        <i class="fa-solid fa-briefcase fa-fw"></i> Portfolio
-                        <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
-                    </a></li>
-                <li><a href="cv.html">
-                        <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
-                        <i class="fa-regular fa-file-lines fa-fw"></i> View CV
-                        <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
-                    </a></li>
-                <li><a href="contact.html">
-                        <i class="fa-solid fa-less-than" style="opacity: 1;"></i>
-                        <i class="fa-solid fa-phone fa-fw"></i> Contact
-                        <i class="fa-solid fa-greater-than" style="opacity: 1;"></i>
-                    </a></li>
+                            <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
+                            <i class="fa-solid fa-house fa-fw"></i> Home
+                            <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
+                        </a></li>
+                    <li><a href="portfolio.html">
+                            <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
+                            <i class="fa-solid fa-briefcase fa-fw"></i> Portfolio
+                            <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
+                        </a></li>
+                    <li><a href="cv.html">
+                            <i class="fa-solid fa-less-than" style="opacity: 0;"></i>
+                            <i class="fa-regular fa-file-lines fa-fw"></i> View CV
+                            <i class="fa-solid fa-greater-than" style="opacity: 0;"></i>
+                        </a></li>
+                    <li><a href="contact.html">
+                            <i class="fa-solid fa-less-than" style="opacity: 1;"></i>
+                            <i class="fa-solid fa-phone fa-fw"></i> Contact
+                            <i class="fa-solid fa-greater-than" style="opacity: 1;"></i>
+                        </a></li>
                 </ul>
             </nav>
         </div>
@@ -79,34 +79,42 @@
                 <form action="https://formdump.codeinstitute.net" id="contact-form" method="post">
                     <h2>Get In Touch</h2>
                     <p>Please fill out the form below and I will respond as soon as possible.</p>
-                    <label for="enquiry_type"><h3>Enquiry Type</h3></label>
+                    <label for="enquiry_type">
+                        <h3>Enquiry Type</h3>
+                    </label>
                     <div class="radio-position">
                         <input type="radio" name="enquiry-type" id="recruitment" value="recruitment" required checked>
                         <i class="fa-solid fa-check"></i>
-                        <label for="recruitment" class="radio-style-label recruitment">Recruitment</label>                        
+                        <label for="recruitment" class="radio-style-label recruitment">Recruitment</label>
                     </div>
                     <div class="radio-position">
                         <input type="radio" name="enquiry-type" id="collaboration" value="collaboration" required>
                         <i class="fa-solid fa-check"></i>
-                        <label for="collaboration" class="radio-style-label collaboration">Collaboration</label>                       
+                        <label for="collaboration" class="radio-style-label collaboration">Collaboration</label>
                     </div>
                     <div class="radio-position">
-                        <input type="radio" name="enquiry-type" id="general-enquiries" value="general-enquiries" required>
+                        <input type="radio" name="enquiry-type" id="general-enquiries" value="general-enquiries"
+                            required>
                         <i class="fa-solid fa-check"></i>
-                        <label for="general-enquiries" class="radio-style-label">General Enquiries</label>    
+                        <label for="general-enquiries" class="radio-style-label">General Enquiries</label>
                     </div>
                     <div class="enter-details">
                         <h3>Enter Details</h3>
                         <div>
                             <label for="first_name">First Name</label>
-                            <input type="text" name="first_name" class="text-input" id="first_name" placeholder="First Name" required>
+                            <input type="text" name="first_name" class="text-input" id="first_name"
+                                placeholder="First Name" required>
                         </div>
                         <div>
                             <label for="email_address">Email Address</label>
-                            <input type="email" name="email_address" class="text-input" id="email_address" placeholder="Email Address" required>
-                        </div>    
-                    </div>
-
+                            <input type="email" name="email_address" class="text-input" id="email_address"
+                                placeholder="Email Address" required>
+                        </div>
+                        <div>
+                            <label for="extra_information">Extra Information</label>
+                            <input type="text" name="extra_information" class="text-input text-box-size" id="extra_information"
+                                placeholder="Please enter any additional information regarding your enquiry" required>
+                        </div>
                 </form>
             </div>
         </section>
