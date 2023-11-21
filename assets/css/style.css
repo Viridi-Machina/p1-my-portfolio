@@ -300,6 +300,17 @@ main p {
     margin: 10px 0 10px;
 }
 
+.radio-style {
+    margin-bottom: 10px;
+    text-align: center;
+    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
+    margin-left: 10vw;
+    padding: 4px 0 4px;
+    margin-right: 10vw;
+    border-radius: 9px;
+}
+
 /* Footer */
 footer {
     color: oklch(100% 0 0);
