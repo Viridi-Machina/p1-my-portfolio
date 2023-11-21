@@ -285,13 +285,14 @@ main p {
 }
 
 #contact-page {
-    margin: 70px 20px 0 20px;
+    margin: 70px 20px 100px 20px;
 }
 
 /* Override for class selector used on index page */
 #contact-page h2,
 #contact-page h3 {
     text-align: center;
+    padding-right: 0;
 }
 
 #contact-page h3 {
@@ -333,12 +334,43 @@ input[type="radio"]:checked~i {
     opacity: 1;
 }
 
+/* Specific styling so all options have the same width */
 .recruitment {
     padding-right: 46px;
 }
 
 .collaboration {
     padding-right: 39px;
+}
+
+/* Text-input styling */
+.enter-details {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.enter-details label {
+    /* Hides labels */
+    display: None;
+}
+
+.enter-details div {
+    padding: 10px 0 10px;
+}
+
+.enter-details input {
+    padding: 10px;
+    text-align: center;
+    background: oklch(0% 0 0 / 10%);
+    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border-radius: 10px;
+    color: oklch(90.67% 0 0);
+    box-shadow: inset 5px 5px 10px oklch(0% 0 0 / 20%); 
+}
+
+input::placeholder {
+    color: oklch(90.67% 0 0 / 80%);
+    text-align: center;
 }
 
 /* Footer */
