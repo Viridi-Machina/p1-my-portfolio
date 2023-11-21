@@ -202,7 +202,8 @@ main {
 
 #header-1,
 #header-2,
-#header-3 {
+#header-3, 
+#contact-page h2 {
     padding: 3px 10px 3px 0;
     font-size: 1.2em;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
@@ -272,6 +273,7 @@ main p {
     color: oklch(83.43% 0.095 55.12 / 87%);
 }
 
+/* Contact Page */
 #contact-page-icon {
     margin-top: -120px;
     font-size: 2em;
@@ -283,6 +285,11 @@ main p {
 
 #contact-page {
     margin-top: 70px;
+}
+
+/* Override for class selector used on index page */
+#contact-page h2 {
+    text-align: center;
 }
 
 /* Footer */
