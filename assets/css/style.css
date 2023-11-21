@@ -203,7 +203,8 @@ main {
 #header-1,
 #header-2,
 #header-3, 
-#contact-page h2 {
+#contact-page h2,
+#contact-page h3 {
     padding: 3px 10px 3px 0;
     font-size: 1.2em;
     border: solid 1px oklch(90.67% 0 0 / 52.16%);
@@ -284,12 +285,19 @@ main p {
 }
 
 #contact-page {
-    margin-top: 70px;
+    margin: 70px 20px 0 20px;
 }
 
 /* Override for class selector used on index page */
-#contact-page h2 {
+#contact-page h2,
+#contact-page h3 {
     text-align: center;
+}
+
+#contact-page h3 {
+    text-transform: capitalize;
+    font-size: 1em;
+    margin: 10px 0 10px;
 }
 
 /* Footer */
