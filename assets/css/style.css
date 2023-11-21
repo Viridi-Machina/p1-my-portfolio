@@ -300,10 +300,9 @@ main p {
     margin: 10px 0 10px;
 }
 
-/* Radio button stylingf */
+/* Radio button styling */
 .radio-position {
-    margin: 20px 0 20px;
-    text-align: center;
+    margin: 20px 0 20px 50px;
 }
 
 .radio-style-label {
@@ -320,6 +319,14 @@ input[type="radio"] {
 
 input[type="radio"]:checked+label {
     background-color: oklch(90.67% 0 0 / 40%);
+}
+
+.recruitment {
+    padding-right: 46px;
+}
+
+.collaboration {
+    padding-right: 39px;
 }
 
 /* Footer */
