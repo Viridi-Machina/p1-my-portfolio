@@ -191,7 +191,7 @@ main {
     filter: saturate(0.7);
 }
 
-.about-me {
+.container-style {
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: oklch(0% 0 0 / 19.2%);
