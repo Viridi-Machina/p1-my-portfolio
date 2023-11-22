@@ -358,7 +358,8 @@ input[type="radio"]:checked~i {
     padding: 10px 0 10px;
 }
 
-.enter-details input {
+.enter-details input,
+textarea {
     padding: 10px;
     text-align: center;
     background: oklch(0% 0 0 / 10%);
@@ -366,6 +367,7 @@ input[type="radio"]:checked~i {
     border-radius: 10px;
     color: oklch(90.67% 0 0);
     box-shadow: inset 5px 5px 10px oklch(0% 0 0 / 20%); 
+    resize: none;
 }
 
 input::placeholder {
@@ -373,8 +375,19 @@ input::placeholder {
     text-align: center;
 }
 
+textarea {
+    text-align: start;
+    font-family: 'Figtree', sans-serif;
+}
+
+textarea::placeholder {
+    color: oklch(90.67% 0 0 / 80%);
+    text-align: start;
+}
+
 .text-box-size {
     height: 200px;
+    width: 191px;
 }
 
 /* Footer */
