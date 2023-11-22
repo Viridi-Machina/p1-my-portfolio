@@ -94,6 +94,7 @@ nav {
 main {
     /* Make main element use available space and push footer to bottom. Grow 1, Shrink 0, Basis auto */
     flex: 1 0 auto;
+    /* Default page margin for main content to allow space for drop-down menu */
     margin-top: 250px;
     /* Apply flex properties to all child elements */
     display: flex;
@@ -272,6 +273,51 @@ main p {
 
 #section-3 a:hover {
     color: oklch(83.43% 0.095 55.12 / 87%);
+}
+
+/* CV page */
+#cv-page-margin {
+    margin-top: 60px;
+}
+
+.cv-contact {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.5em;
+    box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
+    padding: 4px 10px;
+    margin: 20px 30px 10px 10px;
+    border-radius: 9px;
+    line-height: 20px;
+    background-color: oklch(41.45% 0.095 247.07 / 40%);
+    backdrop-filter: blur(3px);
+}
+
+.cv-contact h2 {
+    text-transform: none;
+}
+
+.side-bar {
+    margin: 20px 30px 30px 0;
+    line-height: 20px;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
+    padding: 0 10px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    background-color: oklch(41.45% 0.095 247.07 / 40%);
+    backdrop-filter: blur(3px);
+}
+
+.side-bar h2 {
+    padding: 10px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.side-bar li {
+    margin-left: 30px;
 }
 
 /* Contact Page */
