@@ -283,11 +283,11 @@ main p {
 .cv-contact {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     font-size: 0.5em;
     box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
     padding: 4px 10px;
-    margin: 20px 30px 10px 10px;
-    border-radius: 9px;
+    margin: 20px 0 10px 0;
     line-height: 20px;
     background-color: oklch(41.45% 0.095 247.07 / 40%);
     backdrop-filter: blur(3px);
@@ -297,7 +297,7 @@ main p {
     text-transform: none;
 }
 
-.side-bar {
+.side-bar-1 {
     margin: 20px 30px 30px 0;
     line-height: 20px;
     letter-spacing: 1px;
@@ -310,13 +310,13 @@ main p {
     backdrop-filter: blur(3px);
 }
 
-.side-bar h2 {
+.side-bar-1 h2 {
     padding: 10px;
     margin-top: 20px;
     line-height: 30px;
 }
 
-.side-bar li {
+.side-bar-1 li {
     margin-left: 30px;
 }
 
