@@ -358,6 +358,7 @@ input[type="radio"]:checked~i {
     padding: 10px 0 10px;
 }
 
+/* Textarea styling */
 .enter-details input,
 textarea {
     padding: 10px;
@@ -390,6 +391,22 @@ textarea::placeholder {
     width: 191px;
 }
 
+/* Submit and reset button styling */
+#form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.submit-button {
+    color: inherit;
+    background-color: oklch(90.67% 0 0 / 20%);;
+    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
+    padding: 4px 20px;
+    border-radius: 9px;
+}
+
 /* Footer */
 footer {
     color: oklch(100% 0 0);
@@ -408,6 +425,7 @@ footer h3 {
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
+    flex-basis: 191px;
 }
 
 .social-networks i {
