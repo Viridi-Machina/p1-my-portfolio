@@ -300,6 +300,7 @@ main p {
 
 /* Side bar styling, will make more sense on larger screens */
 .side-bar-1,
+.side-bar-2,
 .text-body {
     margin: 20px 30px 30px 0;
     line-height: 20px;
@@ -313,6 +314,7 @@ main p {
 }
 
 .side-bar-1 h2,
+.side-bar-2 h2,
 .text-body h2 {
     padding: 10px;
     margin-top: 20px;
@@ -323,6 +325,10 @@ main p {
     margin-left: 30px;
 }
 
+.side-bar-2 h3 {
+    font-size: 0.7em;
+}
+
 /* CV main body styling */
 .text-body {
     margin: 20px;
@@ -331,6 +337,10 @@ main p {
 
 .text-body p {
     line-height: 19px;
+}
+
+.text-body h3 {
+    margin-top: 30px;
 }
 
 /* Contact Page */
