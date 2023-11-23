@@ -195,7 +195,7 @@ main {
 .container-style {
     padding-top: 20px;
     padding-bottom: 10px;
-    background-color: oklch(0% 0 0 / 19.2%);
+    background-color: oklch(0% 0 0 / 30%);
     backdrop-filter: blur(25px);
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
     border-radius: 15px;
