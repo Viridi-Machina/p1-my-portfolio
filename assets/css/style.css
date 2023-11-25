@@ -528,6 +528,8 @@ footer h3 {
     /* Changes display from none to show in footer */
     .social-networks p {
         display: block;
+        color: oklch(100% 0 0 / 90%);
+        text-shadow: 3px 3px 10px oklch(100% 0 0 / 52.16%);
 }
 
 }
