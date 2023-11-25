@@ -515,20 +515,50 @@ footer h3 {
 /* Query for tablet screen sizes */
 @media screen and (min-width: 768px) {
     
-    header {
-        font-size: 150%;
+    /* Header */
+    #logo {
+        font-size: 250%;
+        width: fit-content;
     }
+
+    .nav-toggle-label, span {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        top: 20px;
+    }    
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 260px;
+        margin-right: 20px;
+        font-size: 90%;
+    }
+
+    .menu li {
+        border: none;
+        padding: 0;
+    }
+
     
     main p {
         font-size: 1.5em;
         line-height: 1.5em;
     }
 
-    /* Hides contact information so it can be displayed within the footer */
+    /* Main */
     #section-3 li {
+        /* Hides contact information so it can be displayed within the footer */
         display: none;
     }
 
+    /* Footer */
     .social-networks i {
         font-size: 2em;
         padding: 20px 50px 20px 50px;
