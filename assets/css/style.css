@@ -514,6 +514,11 @@ footer h3 {
 
 /* Query for tablet screen sizes */
 @media screen and (min-width: 768px) {
+    
+    header {
+        font-size: 150%;
+    }
+    
     main p {
         font-size: 1.5em;
         line-height: 1.5em;
