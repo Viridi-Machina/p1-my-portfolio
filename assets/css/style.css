@@ -501,6 +501,13 @@ footer h3 {
     padding: 10px 50px 10px 50px;
 }
 
+.social-networks p {
+    font-size: 1.2em;
+    text-align: center;
+    display: none;
+    padding-top: 10px;
+}
+
 /* Query for tablet screen sizes */
 @media screen and (min-width: 768px) {
     main p {
@@ -508,6 +515,7 @@ footer h3 {
         line-height: 1.5em;
     }
 
+    /* Hides contact information so it can be displayed within the footer */
     #section-3 li {
         display: none;
     }
@@ -516,4 +524,10 @@ footer h3 {
         font-size: 2em;
         padding: 20px 50px 20px 50px
     }
+
+    /* Changes display from none to show in footer */
+    .social-networks p {
+        display: block;
+}
+
 }
