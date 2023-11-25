@@ -345,7 +345,7 @@ main p {
     position: relative;
     display: flex;
     justify-content: center;
-    text-shadow: 8px 8px 10px oklch(0% 0 0 / 52.16%);
+    text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
 }
 
 #contact-page {
@@ -531,7 +531,6 @@ footer h3 {
     /* Changes display from none to show in footer */
     .social-networks p {
         display: block;
-        
 }
 
 }
