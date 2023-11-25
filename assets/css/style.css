@@ -67,6 +67,7 @@ header h1 {
     border-radius: 12px;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
 }
 
 /* Navbar toggle and styles */
