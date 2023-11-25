@@ -500,3 +500,20 @@ footer h3 {
     font-size: 1.5em;
     padding: 10px 50px 10px 50px;
 }
+
+/* Query for tablet screen sizes */
+@media screen and (min-width: 768px) {
+    main p {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    #section-3 li {
+        display: none;
+    }
+
+    .social-networks i {
+        font-size: 2em;
+        padding: 20px 50px 20px 50px
+    }
+}
