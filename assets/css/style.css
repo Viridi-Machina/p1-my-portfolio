@@ -617,7 +617,7 @@ footer h3 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        gap: 60px;
+        gap: 30px;
     }
 
     .social-networks p {
@@ -631,6 +631,10 @@ footer h3 {
     .social-networks {
         max-width: 700px;
         margin: auto;
+    }
+
+    .footer-divider {
+        display: inline-block;
     }
 
 }
