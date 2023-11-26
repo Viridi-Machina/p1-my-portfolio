@@ -604,11 +604,33 @@ footer h3 {
     /* Changes display from none to show in footer */
     .social-networks p {
         display: block;
-}
+    }
 
 }
 
 /* Query for tablet screen sizes */
 @media screen and (min-width: 1024px) {
+
+    /* Footer */
+    .footer-flex {
+        order: -1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .social-networks p {
+        margin-top: 5px;
+    }
+
+    .social-networks i {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .social-networks {
+        max-width: 700px;
+        margin: auto;
+    }
 
 }
