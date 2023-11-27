@@ -637,4 +637,9 @@ footer h3 {
         display: inline-block;
     }
 
+    /* Extra padding after <p> text to space the font icons more evenly */
+    #footer-spacer {
+        padding-right: 15px;
+    }
+
 }
