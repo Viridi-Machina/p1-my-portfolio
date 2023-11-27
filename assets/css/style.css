@@ -358,7 +358,8 @@ main p {
 }
 
 #contact-page {
-    margin: 70px 20px 100px 20px;
+    margin: 70px auto 100px auto;
+    max-width: 295px;
 }
 
 /* Override for class selector used on index page */
@@ -376,7 +377,7 @@ main p {
 
 /* Radio button styling */
 .radio-position {
-    margin: 20px 0 10px 40px;
+    margin: 20px 0 10px 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -608,7 +609,7 @@ footer h3 {
 
 }
 
-/* Query for tablet screen sizes */
+/* Query for laptop screen sizes */
 @media screen and (min-width: 1024px) {
 
     /* Footer */
