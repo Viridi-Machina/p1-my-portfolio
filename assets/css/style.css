@@ -459,7 +459,7 @@ textarea {
 
 textarea::placeholder {
     color: oklch(90.67% 0 0 / 80%);
-    text-align: start;
+    text-align: center;
 }
 
 .text-box-size {
