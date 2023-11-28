@@ -638,12 +638,9 @@ footer h3 {
         font-size: 150%;
     }
 
-
-    
-
 }
 
-/* Query for laptop screen sizes */
+/* Query for laptop screen sizes and desktop monitors (specifically 1080p) */
 @media screen and (min-width: 1024px) {
 
     /* Footer */
@@ -676,5 +673,60 @@ footer h3 {
     #footer-spacer {
         padding-right: 15px;
     }
+
+    /* Contact page */
+    #contact-page-icon {
+        display: none;
+    }
+
+    #contact-page {
+        /* Negative margin used to avoid adjusting margin on main content margins on all pages */
+        margin-top: -150px;
+        margin-bottom: 40px;
+    }
+
+    form p {
+        /* Sets max-width to contain text shape in a wider form */
+        max-width: 410px;
+        /* Allows center positioning of text without flex */
+        position: relative;
+        left: 200px;
+    }
+
+    #contact-page {
+        max-width: 800px;
+    }
+
+    .radio-position {
+        margin-left: 260px;
+    }
+
+    #first-name,
+    #email-address {
+        /* Allows movement of text inputs without using flex */
+        position: relative;
+    }
+
+    #first-name {
+        left: -180px;
+    }
+
+    #email-address {
+        top: -70px;
+        left: 180px;
+    }
+
+    textarea {
+        position: relative;
+        top: -50px;
+    }
+
+    .text-box-size {
+        width: 679px;
+    }
+
+
+
+
 
 }
