@@ -611,6 +611,16 @@ footer h3 {
         display: block;
     }
 
+    /* CV page */
+    .text-body p {
+        line-height: 28px;
+    }
+
+    .cv-page-margin {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
     /* Contact page */
     #contact-page {
         /* Max-width adjustment to give more space for tablets */
