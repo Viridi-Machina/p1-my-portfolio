@@ -618,8 +618,27 @@ footer h3 {
 
     .radio-position {
         font-size: 180%;
-        margin: 20px 0 10px 20px;
+        margin-left: 60px;
     }
+
+    /* Specific styling so all options have the same width */
+    .recruitment,
+    .collaboration,
+    .general-enquiries {
+        min-width: 260px;
+    }
+
+    .enter-details input,
+    .text-box-size {
+        font-size: 150% ;
+        min-width: 310px;
+    }
+
+    .submit-button {
+        font-size: 150%;
+    }
+
+
     
 
 }
