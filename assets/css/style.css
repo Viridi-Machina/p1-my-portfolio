@@ -732,8 +732,16 @@ footer h3 {
         top: -30px;
     }
 
+    input[type="radio"] {
+        display: block;
+        width: 0;
+        height: 0;
+    }
 
-
-
+    .radio-position label:hover,
+    .text-input:hover,
+    button:hover {
+        border: solid 1px orange;
+    }
 
 }
