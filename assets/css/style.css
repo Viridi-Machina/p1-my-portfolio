@@ -739,9 +739,25 @@ footer h3 {
     }
 
     .radio-position label:hover,
-    .text-input:hover,
-    button:hover {
+    .text-input:hover {
         border: solid 1px orange;
+    }
+
+    nav li,
+    footer i,
+    #reset,
+    #submit {
+        transition: 0.3s;
+    }
+
+    nav li:hover,
+    footer i:hover,
+    #reset:hover {
+        color: orange;
+    }
+
+    #submit:hover {
+        color: green;
     }
 
 }
