@@ -708,12 +708,13 @@ footer h3 {
     }
 
     #first-name {
-        left: -180px;
+        left: -175px;
+        top: 10px;
     }
 
     #email-address {
-        top: -70px;
-        left: 180px;
+        top: -60px;
+        left: 175px;
     }
 
     textarea {
@@ -722,7 +723,7 @@ footer h3 {
     }
 
     .text-box-size {
-        width: 679px;
+        width: 669px;
     }
 
 
