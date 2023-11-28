@@ -380,7 +380,7 @@ main p {
     margin: 20px 0 10px 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: 60px;
 }
 
 .radio-position i  {
@@ -412,12 +412,10 @@ input[type="radio"]:checked~i {
 }
 
 /* Specific styling so all options have the same width */
-.recruitment {
+.recruitment,
+.collaboration,
+.general-enquiries {
     min-width: 150px;
-}
-
-.collaboration {
-    padding-right: 39px;
 }
 
 /* Text-input styling */
@@ -606,6 +604,23 @@ footer h3 {
     .social-networks p {
         display: block;
     }
+
+    /* Contact page */
+    #contact-page {
+        /* Max-width adjustment to give more space for tablets */
+        max-width: 410px;
+    }
+
+    #contact-page h2, 
+    #contact-page h3 {
+        font-size: 150%;
+    }
+
+    .radio-position {
+        font-size: 180%;
+        margin: 20px 0 10px 20px;
+    }
+    
 
 }
 
