@@ -317,6 +317,12 @@ main p {
     backdrop-filter: blur(3px);
 }
 
+.side-bar-1,
+.side-bar-2 {
+    /* Fixes width to content when expandin screen size */
+    max-width: 320px;
+}
+
 .side-bar-1 h2,
 .side-bar-2 h2,
 .text-body h2 {
