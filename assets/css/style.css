@@ -681,7 +681,7 @@ footer h3 {
 
     #contact-page {
         /* Negative margin used to avoid adjusting margin on main content margins on all pages */
-        margin-top: -150px;
+        margin-top: -60px;
         margin-bottom: 40px;
     }
 
@@ -724,6 +724,12 @@ footer h3 {
 
     .text-box-size {
         width: 669px;
+    }
+
+    #form-buttons {
+        font-size: 120%;
+        position: relative;
+        top: -30px;
     }
 
 
