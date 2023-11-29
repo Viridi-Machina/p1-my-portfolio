@@ -616,6 +616,29 @@ footer h3 {
     .professional-summary {
         position: relative;
         margin-left: 370px;
+        height: 840px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: auto;
+        justify-content: space-between;
+    }
+
+    .professional-summary p {
+    
+    }
+
+    .side-bar-1,
+    .side-bar-2 {
+        position: absolute;
+    }
+
+    .side-bar-1 {
+        top: 117px;
+        width: 320px;
+    }
+
+    .side-bar-2 {
+        top: 727px;
     }
 
     .text-body p {
