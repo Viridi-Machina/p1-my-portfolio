@@ -643,6 +643,15 @@ footer h3 {
         line-height: 28px;
     }
 
+    .work-history {
+        display: flex;
+        flex-direction: column;
+        flex-basis: auto;
+        height: 900px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
     /* Contact page */
     #contact-page {
         /* Max-width adjustment to give more space for tablets */
