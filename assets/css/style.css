@@ -616,15 +616,14 @@ footer h3 {
         line-height: 28px;
     }
 
-    .cv-page-margin {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-
     /* Contact page */
     #contact-page {
         /* Max-width adjustment to give more space for tablets */
         max-width: 410px;
+    }
+
+    .cv-contact h2 {
+        font-size: 250%;
     }
 
     #contact-page h2, 
