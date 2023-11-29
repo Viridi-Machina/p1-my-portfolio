@@ -623,21 +623,19 @@ footer h3 {
         justify-content: space-between;
     }
 
-    .professional-summary p {
-    
-    }
-
     .side-bar-1,
     .side-bar-2 {
         position: absolute;
     }
 
     .side-bar-1 {
+        /* Positions side-bar 1 inline with summary text */
         top: 117px;
         width: 320px;
     }
 
     .side-bar-2 {
+        /* Positions side-bar 2 below side-bar 1 */
         top: 727px;
     }
 
