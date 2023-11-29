@@ -720,11 +720,27 @@ footer h3 {
         display: inline-block;
     }
 
+    /* CV page */
+    .side-bar-1,
+    .side-bar-2 {
+        position: fixed;
+    }
+    
+    .professional-summary {
+        /* Reduce max-height for larger screens as the format changes again and the side-bar becomes sticky */
+        max-height: 570px;
+    }
+
+    .work-history {
+        /* Sets margin the same as the summary */
+        margin-left: 370px;
+    }
+
     /* Extra padding after <p> text to space the font icons more evenly */
     #footer-spacer {
         padding-right: 15px;
     }
-
+    
     /* Contact page */
     #contact-page-icon {
         display: none;
