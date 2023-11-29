@@ -612,6 +612,12 @@ footer h3 {
     }
 
     /* CV page */
+
+    .professional-summary {
+        position: relative;
+        margin-left: 370px;
+    }
+
     .text-body p {
         line-height: 28px;
     }
