@@ -134,7 +134,7 @@ main {
 }
 
 /* Specific positioning and colour filters for different pages */
-#contact {
+#contact-bg {
     filter: hue-rotate(320deg) saturate(0.8);
 }
 
@@ -142,9 +142,9 @@ main {
     filter: hue-rotate(40deg) saturate(0.8);
 }
 
-/* Selector to apply flex properties and relative positioning for profile image and it's detailing */
-#profile-center {
-    display: flex;
+
+#profile-image-position {
+    /* Profile-image positioning for image and it's detailing counterpart */
     position: relative;
 }
 
@@ -154,15 +154,17 @@ main {
     width: 130px;
     /* Circle styling for profile image */
     border-radius: 50%;
+    /* Absolute positiong is used to remove content from flow of page */
     position: absolute;
+    /* Shadow effect behind profile-image */
     box-shadow: 3px 3px 10px oklch(0% 0 0 / 69.02%);
     top: -85px;
     left: 20px;
     z-index: 10;
 }
 
-/* Extra detailing on profile image; circle-ring overlay */
-#profile-backdrop {
+#profile-image-detail {
+    /* Extra detailing on profile image; circle-ring overlay */
     height: 124px;
     width: 124px;
     border-radius: 50%;
@@ -199,6 +201,7 @@ main {
 }
 
 .container-style {
+    /* Blur-filter and round edge styling for repeat use */
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: oklch(0% 0 0 / 30%);
@@ -207,9 +210,7 @@ main {
     border-radius: 15px;
 }
 
-#header-1,
-#header-2,
-#header-3, 
+#index-page h2, 
 #contact-page h2,
 #contact-page h3 {
     padding: 3px 10px 3px 0;
@@ -229,9 +230,9 @@ main p {
     overflow: hidden;
 }
 
-#index-about-me,
-#section-2,
-#section-3 {
+#about-me,
+#languages,
+#contact {
     max-width: 450px;
     margin:auto;
 }
@@ -240,20 +241,20 @@ main p {
     margin-top: 0px;
 }
 
-#section-2 {
+#languages {
     margin-top: 80px;
 }
 
-#section-3 {
+#contact {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-#section-3 li {
+#contact li {
     list-style-type: none;
 }
 
-.contact-icons {
+#contact-icons {
     display: flex;
     flex-direction: row;
     flex-basis: auto;
@@ -264,30 +265,31 @@ main p {
     margin-right: 160px;
 }
 
-#section-3 a {
+#contact a {
     color: inherit;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#section-3 ul {
+#contact ul {
     padding-top: 10px;
     text-align: center;
     line-height: 25px;
 }
 
-#section-3 a:hover {
+#contact a:hover {
     color: oklch(83.43% 0.095 55.12 / 87%);
 }
 
 /* CV page */
 #cv-page-margin {
+    /* Spaces content from header */
     margin-top: 60px;
 }
 
 /* CV header; contact information */
-.cv-contact {
+#cv-contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -300,7 +302,7 @@ main p {
     backdrop-filter: blur(3px);
 }
 
-.cv-contact h2 {
+#cv-contact h2 {
     text-transform: none;
 }
 
@@ -601,7 +603,7 @@ footer h3 {
     }
 
     /* Main */
-    #section-3 li {
+    #contact li {
         /* Hides contact information so it can be displayed within the footer */
         display: none;
     }
@@ -664,7 +666,7 @@ footer h3 {
         max-width: 410px;
     }
 
-    .cv-contact h2 {
+    #cv-contact h2 {
         font-size: 180%;
     }
 
@@ -701,7 +703,8 @@ footer h3 {
 @media screen and (min-width: 1024px) {
 
     /* Footer */
-    .footer-flex {
+    #footer-flex {
+        /* Flex properties for footer contact info that only shows on tablet and larger */
         order: -1;
         display: flex;
         flex-direction: row;

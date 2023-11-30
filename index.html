@@ -94,56 +94,61 @@
     </header>
 
     <!-- Main content -->
-    <main>
-        <section id="index-about-me">
+    <main id="index-page">
+        <section id="about-me">
             <!-- Profile image -->
-            <div id="profile-center">
+            <div id="profile-image-position">
+                <!-- Although not an <img> the alt is for the image contained within the <div> -->
                 <div id="profile-image" alt="portrait of jacen green"></div>
-                <div id="profile-backdrop"></div>
+                <div id="profile-image-detail"></div>
             </div>
             <div class="container-style">
-                <h2 id="header-1">About Me</h2>
+                <h2>About Me</h2>
                 <p>
-                    Hi, my name's Jacen and I am currently studying a full-stack development course with <strong>Code
-                        Institute </strong>until October 2024.
+                    Hi, my name's Jacen and I am currently studying a full-stack development course with
+                    <strong>Code Institute </strong>until October 2024.
                 </p>
                 <br>
                 <p>
-                    I wanted to start coding simply out of interest and originally planned to pursue it as a hobby, but
-                    after seeking a career change I discovered an opportunity.
+                    I wanted to start coding simply out of interest and originally planned to pursue it as a hobby,
+                    but after seeking a career change I discovered an opportunity.
                 </p>
                 <br>
                 <p>
-                    I take pride in my work, have a keen eye
-                    for fine details and take pleasure in making things look more appealing for other people.
+                    I take pride in my work, have a keen eye for fine details and take pleasure in making things look
+                    more appealing for other people.
                 </p>
                 <br>
             </div>
         </section>
-        <section id="section-2">
+
+        <section id="languages">
             <!-- Code language pngs -->
             <div class="languages">
+                <!-- Although not an <img> the alt is for the image contained within the <div> -->
                 <div id="html" alt="Logo of HTML coding language"></div>
                 <div id="css" alt="Logo of css coding language"></div>
             </div>
             <div class="container-style">
-                <h2 id="header-2">Languages</h2>
-                <p>So far I have leant two fundamental coding languages; <strong>HTML</strong> and <strong>CSS</strong>.
-                    By the time I have finished the course I will also be competent with
-                    <strong><em>JavaScript</em></strong>, <strong><em>Python</em></strong> and
-                    <strong><em>Django</em></strong>
+                <h2>Languages</h2>
+                <p>
+                    So far I have leant two fundamental coding languages; <strong>HTML</strong> and
+                    <strong>CSS</strong>. By the time I have finished the course I will also be competent with
+                    <strong>JavaScript</strong>, <strong>Python</strong> and <strong>Django</strong>.
                 </p>
                 <br>
             </div>
         </section>
-        <section id="section-3">
-            <div class="contact-icons">
+
+        <section id="contact">
+            <div id="contact-icons">
                 <i class="fa-solid fa-handshake fa-2xl"></i>
                 <i class="fa-solid fa-phone fa-xl"></i>
             </div>
             <div class="container-style">
-                <h2 id="header-3">Contact Me</h2>
-                <p>Do you want to collaborate on a project or simply get in touch?
+                <h2>Contact Me</h2>
+                <p>
+                    Do you want to collaborate on a project or simply get in touch?
                     <a href="contact.html"> Click me</a>
                     to fill out a contact form or use my information below.
                 </p>
@@ -164,8 +169,9 @@
                     aria-label="Visit my linkedin profile (opens in a new tab)">
                     <i class="fa-brands fa-linkedin"></i></a>
             </li>
-            <li class="footer-flex">
+            <li id="footer-flex">
                 <p>+44 7432 107585</p>
+                <!-- The span below only displays on larger screens -->
                 <span class="hidden footer-divider">
                     <p>|</p>
                 </span>
