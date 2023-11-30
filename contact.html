@@ -14,7 +14,7 @@
     <!-- Title -->
     <title>Jacen Green</title>
 
-    <!-- Favicon, from RedKetchup favicon generator. BG: oklch(55.71% 0.095 206.08 / 87%) -->
+    <!-- Favicon, from RedKetchup favicon generator. Background colour: oklch(55.71% 0.095 206.08 / 87%) -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -38,14 +38,26 @@
                 <i class="fa-solid fa-code"></i>
             </label>
             <nav>
+                <!-- 
+                    Greater-than fonticons are used to indicate the active page. 
+                    
+                    As it is not direct styling of the link itself an inactive class has been 
+                    given to all other links to hide them so that indentation is reserved.
+                    
+                    This is because the <i> elements could not be easily selected with css.
+                    However wrapping in a <span> allows individual styling with classes.
+                -->
                 <ul class="menu">
-                    <!-- &lt and &gt allow < and > characters as text, in this case to show active page -->
                     <li>
                         <a href="index.html">
                             <span class="inactive"><i class="fa-solid fa-greater-than"></i></span>
                             <span><i class="fa-solid fa-house fa-fw"></i></span> Home
                         </a>
-                        <div class="menu-large menu-home hidden">
+                        <!-- 
+                            The <div> following each <a> element is required for relative 
+                            positioning on larger screens 
+                        -->
+                        <div class="menu-large hidden" id="menu-home">
                             <i class="fa-solid fa-house fa-fw"></i>
                         </div>
                     </li>
@@ -54,7 +66,7 @@
                             <span class="inactive"><i class="fa-solid fa-greater-than"></i></span>
                             <span><i class="fa-solid fa-briefcase fa-fw"></i></span> Portfolio
                         </a>
-                        <div class="menu-large menu-portfolio hidden">
+                        <div class="menu-large hidden" id="menu-portfolio">
                             <i class="fa-solid fa-briefcase fa-fw"></i>
                         </div>
                     </li>
@@ -63,16 +75,16 @@
                             <span class="inactive"><i class="fa-solid fa-greater-than"></i></span>
                             <span><i class="fa-regular fa-file-lines fa-fw"></i></span> View CV
                         </a>
-                        <div class="menu-large menu-cv hidden">
+                        <div class="menu-large hidden" id="menu-cv">
                             <i class="fa-regular fa-file-lines fa-fw"></i>
                         </div>
                     </li>
                     <li>
-                        <a href="contact.html" class="active">
+                        <a href="contact.html" id="active">
                             <span><i class="fa-solid fa-greater-than"></i></span>
                             <span><i class="fa-solid fa-phone fa-fw"></i></span> Contact
                         </a>
-                        <div class="menu-large menu-contact hidden">
+                        <div class="menu-large hidden" id="menu-contact">
                             <i class="fa-solid fa-phone fa-fw"></i>
                         </div>
                     </li>

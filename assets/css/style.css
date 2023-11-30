@@ -40,7 +40,7 @@ header {
 }
 
 header>div {
-    padding: 5px 10px 5px 10px;
+    padding: 5px 10px 5px 10px;*/
 }
 
 header a {
@@ -92,10 +92,12 @@ nav {
 }
 
 .inactive {
+    /* Opactiy is used rather than "display: none;" so that the space can be reserved */
     opacity: 0;
 }
 
 .hidden {
+    /* Removes content on mbile screen sizes */
     display: none;
 }
 
@@ -227,14 +229,14 @@ main p {
     overflow: hidden;
 }
 
-#section-1,
+#index-about-me,
 #section-2,
 #section-3 {
     max-width: 450px;
     margin:auto;
 }
 
-#section-1 {
+#index-about-me {
     margin-top: 0px;
 }
 
@@ -531,6 +533,7 @@ footer h3 {
     
     /* Header */
     #logo {
+        /* Specific styling for logo header */
         font-size: 250%;
         width: fit-content;
     }
@@ -549,12 +552,13 @@ footer h3 {
     }    
 
     .menu {
+        /* Flex properties for nav-bar on larger screens */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-left: 300px;
         margin-right: 40px;
-        font-size: 90%;
+        font-size: 90%;*/
     }
 
     .menu li {
@@ -568,29 +572,31 @@ footer h3 {
         line-height: 1.5em;
     }
 
-    .active {
+    #active {
+        /* Highlights selected page on site */
         text-decoration: overline;
     }
 
+    /* Class and ID selectors for positioning nav-menu fonticons */
     .menu-large {
         display: block;
         position: relative;
         top: -40px;
     }
 
-    .menu-home {
+    #menu-home {
         left: 15px;
     }
 
-    .menu-portfolio {
+    #menu-portfolio {
         left: 38px;
     }
 
-    .menu-cv {
+    #menu-cv {
         left: 27px;
     }
 
-    .menu-contact {
+    #menu-contact {
         left: 31px;
     }
 
@@ -807,7 +813,7 @@ footer h3 {
 
     .radio-position label:hover,
     .text-input:hover {
-        border: solid 1px orange;
+        border: solid 1px oklch(83.06% 0.1336 69.83);
     }
 
     nav li,
@@ -820,7 +826,7 @@ footer h3 {
     nav li:hover,
     footer i:hover,
     #reset:hover {
-        color: orange;
+        color: oklch(83.06% 0.1336 69.83);
     }
 
     #submit:hover {
