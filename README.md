@@ -151,18 +151,15 @@ The kay interactive elements on the site can be broken down into the following:
 - Portfolio page video showcasing the entire site as a form of tutorial.
 
 ## Wireframes
+Mobile-wireframe
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/88ae27ad-97e3-457e-bcde-7128b7bf4b9d)
 
-The wireframe used to sketch out the concept of the site was created via Balsamiq Wireframes. The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. Larger screen sizes would expand on the structure used to display the site on a tablet and scaled up for the most part.
+Tablet-wireframe
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/db07b777-86e7-410e-9e58-6c5cd48c6cb9)
 
-## mobile wireframes
-🚀 **merit & beyond**
-
-## tablet wireframes
-🚀 **merit & beyond**
-
-## desktop wireframes
-🚀 **merit & beyond**
+The wireframe used to sketch out the concept of the site was created via Balsamiq Wireframes. 
+The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. 
+Larger screen sizes would expand on the structure used to display the site on a tablet and scaled up for the most part.
 
 # Features
 🚨**Required** 
