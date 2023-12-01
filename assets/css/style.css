@@ -315,7 +315,7 @@ main p {
     padding: 4px 10px;
     margin: 20px 0 10px 0;
     line-height: 20px;
-    background-color: oklch(41.45% 0.095 247.07 / 40%);
+    background-color: oklch(40% 0.1 250 / 40%);
     backdrop-filter: blur(3px);
 }
 
@@ -334,7 +334,7 @@ main p {
     padding: 0 10px 20px;
     border-radius: 0 15px 15px 0;
     border-left: none;
-    background-color: oklch(41.45% 0.095 247.07 / 40%);
+    background-color: oklch(40% 0.1 250 / 40%);
     backdrop-filter: blur(3px);
 }
 
@@ -411,6 +411,7 @@ main p {
 }
 
 .radio-position i {
+    /* Hides the icon for selected radio field by default; visible on selection */
     opacity: 0;
     position: relative;
     right: 10px;
@@ -418,19 +419,20 @@ main p {
 }
 
 .radio-style-label {
-    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border: solid 1px oklch(90% 0 0 / 50%);
     box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
     padding: 4px 10px;
     border-radius: 9px;
 }
 
 input[type="radio"] {
+    /* Hides radio icon on smaller screens */
     display: none;
 }
 
 /* Highlights checked radio-query */
 input[type="radio"]:checked~label {
-    background-color: oklch(90.67% 0 0 / 40%);
+    background-color: oklch(90% 0 0 / 40%);
 }
 
 /* Displays check mark on checked radio-query */
@@ -466,15 +468,15 @@ textarea {
     padding: 10px;
     text-align: center;
     background: oklch(0% 0 0 / 10%);
-    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border: solid 1px oklch(90% 0 0 / 50%);
     border-radius: 10px;
-    color: oklch(90.67% 0 0);
+    color: oklch(90% 0 0);
     box-shadow: inset 5px 5px 10px oklch(0% 0 0 / 20%);
     resize: none;
 }
 
 input::placeholder {
-    color: oklch(90.67% 0 0 / 80%);
+    color: oklch(90% 0 0 / 80%);
     text-align: center;
 }
 
@@ -484,7 +486,7 @@ textarea {
 }
 
 textarea::placeholder {
-    color: oklch(90.67% 0 0 / 80%);
+    color: oklch(90% 0 0 / 80%);
     text-align: center;
 }
 
@@ -502,9 +504,9 @@ textarea::placeholder {
 
 .submit-button {
     color: inherit;
-    background-color: oklch(90.67% 0 0 / 20%);
+    background-color: oklch(90% 0 0 / 20%);
     ;
-    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border: solid 1px oklch(90% 0 0 / 50%);
     box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
     padding: 4px 20px;
     border-radius: 9px;
@@ -514,7 +516,7 @@ textarea::placeholder {
 footer {
     background-color: rgba(0, 0, 0, 0.192);
     backdrop-filter: blur(25px);
-    box-shadow: 0 -5px 20px oklch(0% 0 0 / 52.16%);
+    box-shadow: 0 -5px 20px oklch(0% 0 0 / 50%);
 }
 
 footer h3 {
