@@ -35,6 +35,7 @@ Generate after readme is complete by copying and pasting your readme from this p
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 ## UX
+
 ### Target Audience
 My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
 
@@ -94,25 +95,39 @@ Overall the same font is consistently used throughout the site. However, differe
 For example the h1 element is capitalised as it was thought that the logo should be displayed as one would write their own name, whereas other header elements are uppercased to demand attention and spaced more for readibility.
 Line height and letter spacing is used to provide distinctive difference between all text elements on different screen sizes, mainly for paragraph elements containing large ammounts of text.
 
+<details>
+ <summary>View example</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfa7693e-37b8-4518-a90f-6654ba32a752)
+</details>
 
 Originally, as the site is a developer portfolio, the desired font was intended to be similar to what may be used on IDEs - which explains the similarity to the font within this README.
 
 ### Imagery
+<details>
+ <summary>View drop-down menu (mobile)</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfe0acd8-d6cb-47cd-ba79-dc0412bb6132)
+</details>
 
 The above screenshot shows the drop-down navigation menu, in mobile format, with it's corresponding icons. 
 Each fonticon was obtained from [fontawesome](https://fontawesome.com/) and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
 
 The icon used in the top-right corner is used to toggle the drop-down menu. To reinforce the developer theme the '</>' icon would be another subtle hint towards this. 
 Furthermore, the menu items were originally wrapped in '<>' brackets to indicate the active page. However there was difficulty with formatting and the idea was exchanged for a simple greater-than sign. 
-
+<details>
+ <summary>View form screenshot</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b06f5148-cad7-42bc-ac84-75a7e2897fae)
+</details>
 
 The above images shows the bottom of the form on the contact page - reset and check-mark icons are used inplace of text. 
 Although understandable that accessibility becomes a concern with icons alone it was a conscious choice to maintain this aesthetic for the form.
-
+<details>
+ <summary>View hero image (full-size)</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/49d6f105-76f4-4e6c-be6d-6fcec817993c)
+</details>
 
 Above is a full-size version of the hero image on the index page. The image in particular was chosen because of 3 core elements relatable to the author:
 - The image is somewhat abstract in nature, and created with a geometric style that is favoured by the author.
@@ -120,7 +135,11 @@ Above is a full-size version of the hero image on the index page. The image in p
 - The naturalistic art style involving a mountain evokes feelings of liberation and beauty, and that one can do anything - relating to the author aspiring to be a developer and having ambition towards aesthetic design.
 - Ultimately the image symbolises the characteristics of the author; the love for maths, graphic/computer design and to challenge oneself.
 
+<details>
+ <summary>View alternate hero image</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6188fb52-612e-420f-afb0-9bb474566f22)
+</details>
 
 Lastly, the above image is the hero background used on all pages other than the home page. It has characteristics of the index page image but simplified for use as a texture so that it does not distract from the page content.
 It retains elements of colour gradients and geometric styling so that it still remains consistent with the overlall theme. This image has a filter(hue-rotate) applied to it on the portfolio and contact pages to differentiate them by colour.
@@ -158,13 +177,13 @@ The wireframe used to sketch out the concept of the site was created via Balsami
 The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. 
 Larger screen sizes would expand on the structure used to display the site on a tablet and scaled up for the most part.
 
-# Features
-🚨**Required** 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
-
 ## Implemented Features
-🚨**Required** 
+
+### Navigation
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/aed8def9-9fd1-43f8-bef3-4ac706f13117)
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/48ff40c7-b720-47b9-ad25-d1d6e74560b6)
+
+
 
 It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
