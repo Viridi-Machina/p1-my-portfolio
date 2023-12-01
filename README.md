@@ -49,15 +49,14 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
 
-  > ***! Insert picture of final product in responsive states***
+  ![am-i-responsive-screenshot](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/56bfb37a-6b36-4eb7-b526-3a11c2d8bad6)
 
-  > ***! Insert link to repository***
+  - Repository for this project can be found via the following link: https://github.com/Viridi-Machina/p1-my-portfolio
 
-  > ***! Include a link to deployed project (typically a GitHub Page on  github.io)***
+  - Deployment of the live site can visited via the following link: https://viridi-machina.github.io/p1-my-portfolio/
 
 ## Author
 Jacen Green
-
 
 ## Contents
 
@@ -66,63 +65,90 @@ Generate after readme is complete by copying and pasting your readme from this p
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 ## UX
-> ## Target Audience
-> My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
-> 
-> Incidentally it could also be used by other front-end enthusiasts who might take inspiration for their own projects.
->
-> The style and general theme of the site is designed to be gender neutral, with aestheitics and interactions that provoke comfort and curiosity.
+### Target Audience
+My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
 
-> ## Project Goals
+Incidentally it could also be used by other front-end enthusiasts who might take inspiration for their own projects.
 
-Write bullet points of what this site is trying to achieve.  
-- This site presents X to Y with specific features.
-- Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
+The style and general theme of the site is designed to be gender neutral, with aestheitics and interactions that provoke comfort and curiosity through colour and style.
 
-> ## User Stories
-> ### Employer
-> "As an employer, I need a developer that can quickly showcase their skills and abilites, so that I can make a more straightforward and confident decision when recruiting"
->
-> ### Experienced Developer
-> "As a font-end developer, I want to collaborate and seek help with my own projects, so that I can meet my own goals / deadlines and increase my social circle"
->
-> ### New Developer
-> "As an aspiring developer learning HTML and CSS, I want to find inspiration, so that I can further my own skillset and create my own projects"
+### Project Goals
+This site presents:
+- A Home page with a summary of the author.
+- A CV page which shows work history and skills obtained through past experience.
+- A Contact page with a submission form that allows the selection of an enquiry type and a text-area for typing extra information regarding the enquiry.
+- A Portfolio page which showcases completed projects.
 
+All pages present a fixed header with a dropdown menu which expands into a traditional navigation bar on tablet screen sizes and above.
+A footer at the bottom of each page offers links to the author's Github project portfolio, Linkedin profile and on larger screens there is also space for contact details.
+For larger screen sizes, such as laptops and desktop monitors, hover and hover-transition effects have been implemented to further improve the user experience and provide clarity of action.
+The site aims to be responsive for most common screen sizes and has been created with a mobile-first deisgn philosophy in mind.
+ 
+The key goal of the site however is a proof-of-concept personal portfolio which will be branched from; it will be expanded upon and generally improved as the author learns more coding languages and unlocks new possibilities with regards to deisgn and interactivity.
 
-### Site User Stories
-🚀 **merit & beyond**
+### User Stories
+#### Employer
+- "As an employer, I need a developer that can quickly showcase their skills and abilites, so that I can make a more straightforward and confident decision when recruiting"
 
-### Website Owner Stories
-🚀 **merit & beyond**
+#### Experienced Developer
+- "As a font-end developer, I want to collaborate and seek help with my own projects, so that I can meet my own goals / deadlines and increase my social circle"
 
-### Developer Stories
-🚀 **merit & beyond**
+#### New Developer
+- "As an aspiring developer learning HTML and CSS, I want to find inspiration, so that I can further my own skillset and create my own projects"
 
-## Design Choices Stories
-🚀 **merit & beyond**
+### Owner Stories
+- "As an aspiring developer, I want to showcase my work and portfolio in a way that gives me an edge over other possible candidates, so I have the best chance of getting my desired role"
+- "As an aspiring developer, I want other developers to see my work and contact me, so that I may gain experience through collaborative efforts and increase my portfolio and social circle"
 
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
-
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
+## Design Choices
 
 ### Colors
-🚀 **merit & beyond**
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/1e41ee34-d1e7-4ed1-ac10-de5866c4e44c)
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like [coolors.co](https://coolors.co/)
+The site uses a lot of texture in colour with backgrounds that cover each page, as well as blur-filters and transparency to highlight content - as a result it is difficult to select a definitive colour pallet. 
+The pallet shown above however attempts to simplify the colour theme of the site; each page has a distinctive colour-theme with hue variations to indicate that the user is on a different page but still within the same site.
+
+The home page is an exception; it contains beautiful background art which would be used to set the theme of the rest of the site. Solid colours were specifically ommited and gradients were used overall to make the site as intersting to look at as possible.
+The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
 ### Typography
-🚀 **merit & beyond**
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/27540bbb-74f1-4901-8c13-25b9b5b16e29)
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- Clarity of letters, putting a capital i next to a lower case L is always a good test
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+The chosen font, **'Figtree'**, is intended to provide a comfortable read for the user by providing clarity and removing unnecessary information. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
+It is supposed to look modern without being over-stylised. The font was obtained from Google Fonts at: [https://fonts.google.com/](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
+
+Overall the same font is consistently used throughout the site. However, differences in use for different header and text elements are subject to text transformations and letter spacing.
+For example the h1 element is capitalised as it was thought that the logo should be displayed as one would write their own name, whereas other header elements are uppercased to demand attention and spaced more for readibility.
+Line height and letter spacing is used to provide distinctive difference between all text elements on different screen sizes, mainly for paragraph elements containing large ammounts of text.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfa7693e-37b8-4518-a90f-6654ba32a752)
+
+Originally, as the site is a developer portfolio, the desired font was intended to be similar to what may be used on IDEs - which explains the similarity to the font within this README.
 
 ### Imagery
-🚀 **merit & beyond**
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfe0acd8-d6cb-47cd-ba79-dc0412bb6132)
 
-Explain why you used certain icons and images on your site & tie it back into your target audience
+The above screenshot shows the drop-down navigation menu, in mobile format, with it's corresponding icons. 
+Each fonticon was obtained from https://fontawesome.com/ and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
+
+The icon used in the top-right corner is used to toggle the drop-down menu. To reinforce the developer theme the '</>' icon would be another subtle hint towards this. 
+Furthermore, the menu items were originally wrapped in '<>' brackets to indicate the active page. However there was difficulty with formatting and the idea was exchanged for a simple greater-than sign. 
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b06f5148-cad7-42bc-ac84-75a7e2897fae)
+
+The above images shows the bottom of the form on the contact page - reset and check-mark icons are used inplace of text. 
+Although understandable that accessibility becomes a concern with icons alone it was a conscious choice to maintain this aesthetic for the form.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/49d6f105-76f4-4e6c-be6d-6fcec817993c)
+
+Above is a full-size version of the hero image on the index page. The image in particular was chosen because of 3 core elements relatable to the author:
+- The image is somewhat abstract in nature, and created with a geometric style that is favoured by the author.
+- The colour palette in the image was what the author was looking for, and helped to define the colour pallette of the rest of the site.
+- The naturalistic art style involving a mountain evokes feelings of liberation and beauty, and that one can do anything - relating to the author aspiring to be a developer and having ambition towards aesthetic design.
+- Ultimately the image symbolises the characteristics of the author; the love for maths, graphic/computer design and to challenge oneself.
+
+
+The hero images used as backgrounds across the site are intended to tell a visual story about the author, and what they can expect from them either in a career or collaborative role.
 
 ### Animations and Transitions
 🚀 **merit & beyond**
