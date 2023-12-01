@@ -90,7 +90,9 @@ nav {
 }
 
 #nav-toggle {
-    display: none;
+    /* Hides rather than removing toggle box so it can be toggled with keyboard only */
+    opacity: 0;
+    position: absolute;
 }
 
 .nav-toggle-label {
