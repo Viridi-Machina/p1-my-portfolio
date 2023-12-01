@@ -43,8 +43,7 @@ header {
     box-shadow: 0 5px 20px oklch(0% 0 0 / 50%);
     /* Sets header to top layer on page */
     z-index: 15;
-    border-bottom-right-radius: 18px;
-    border-bottom-left-radius: 18px;
+    border-radius: 0 0 18px 18px;
 }
 
 header>div {
@@ -81,11 +80,12 @@ header a {
 
 /* Navbar toggle and styles */
 nav {
+    /* Hides navbar dropdown by default; click to open */
     display: none;
 }
 
-/* Nav toggle */
 #nav-toggle:checked~nav {
+    /* Nav toggle */
     display: block;
 }
 
@@ -373,7 +373,7 @@ main p {
     position: relative;
     display: flex;
     justify-content: center;
-    text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
+    text-shadow: var(--white-glow);
 }
 
 #contact-page {
@@ -527,7 +527,7 @@ footer h3 {
     color: var(--oklch-white);
     font-size: 1.5em;
     padding: 10px 50px 10px 50px;
-    text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
+    text-shadow: var(--white-glow);
 }
 
 .social-networks p {
@@ -537,7 +537,7 @@ footer h3 {
     display: none;
     padding-top: 12px;
     color: oklch(100% 0 0 / 90%);
-    text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
+    text-shadow: var(--white-glow);
 }
 
 /* Query for tablet screen sizes */
