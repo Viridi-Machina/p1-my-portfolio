@@ -15,22 +15,28 @@ body {
     min-height: 100vh;
     /* General font styles */
     font-family: 'Figtree', sans-serif;
-    color: oklch(100% 0 0);
+    /* Variables for repeat use in styling */
+    --oklch-white: oklch(100% 0 0);
+    /* Body default font colour */
+    color: var(--oklch-white);
 }
 
-h1,
+h1 {
+    text-transform: capitalize;
+}
+
 h2,
 h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: oklch(100% 0 0);
 }
 
 /* Header */
 header {
+    /* Fixes header to top of screen so it is always visible when scrolling */
     position: fixed;
     width: 100%;
-    background-color: oklch(0% 0 0 / 19.2%);
+    background-color: oklch(0% 0 0 / 20%);
     /* Blur and box-shadow effect, layered above profile image */
     backdrop-filter: blur(25px);
     box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
@@ -46,10 +52,6 @@ header>div {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-header h1 {
-    text-transform: capitalize;
 }
 
 /* Navbar menu styling */
@@ -494,7 +496,6 @@ textarea::placeholder {
 
 /* Footer */
 footer {
-    color: oklch(100% 0 0);
     background-color: rgba(0, 0, 0, 0.192);
     backdrop-filter: blur(25px);
     box-shadow: 0 -5px 20px oklch(0% 0 0 / 52.16%);
@@ -514,7 +515,8 @@ footer h3 {
 }
 
 .social-networks i {
-    color: oklch(100% 0 0);
+    /* Colour override for default fonticon colour */
+    color: var(--oklch-white);
     font-size: 1.5em;
     padding: 10px 50px 10px 50px;
     text-shadow: 0px 0px 10px oklch(100% 0 0 / 70%);
