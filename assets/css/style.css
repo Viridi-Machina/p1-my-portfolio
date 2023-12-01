@@ -158,6 +158,14 @@ main {
     filter: hue-rotate(40deg) saturate(0.8);
 }
 
+#error-bg {
+    filter: hue-rotate(190deg);
+}
+
+.error p {
+    text-align: center;
+    padding-bottom: 1em;
+}
 
 #profile-image-position {
     /* Profile-image positioning for image and it's detailing counterpart */
