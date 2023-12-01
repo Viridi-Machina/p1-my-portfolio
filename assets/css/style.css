@@ -860,7 +860,6 @@ footer h3 {
         transition: 0.3s;
     }
 
-    
     #reset:hover {
         color: oklch(80% 0.1 70);
     }
