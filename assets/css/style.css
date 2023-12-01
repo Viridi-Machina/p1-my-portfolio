@@ -733,6 +733,13 @@ footer h3 {
 /* Query for laptop screen sizes and desktop monitors (specifically 1080p) */
 @media screen and (min-width: 1024px) {
 
+    #about-me,
+    #languages,
+    #contact {
+        /* Fixes width and centers when expanding screen size further */
+        max-width: 800px;
+    }
+
     /* Footer */
     #footer-flex {
         /* Flex properties for footer contact info that only shows on tablet and larger */
