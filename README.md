@@ -112,19 +112,43 @@ The home page is an exception; it contains beautiful background art which would 
 The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
 ### Typography
-The chosen font, 'figtree', is intended to provide a comfortable read for the user. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
-It is supposed to look modern without being over-stylised. Overall the same font is consistently used throughout the site
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/27540bbb-74f1-4901-8c13-25b9b5b16e29)
 
+The chosen font, **'Figtree'**, is intended to provide a comfortable read for the user by providing clarity and removing unnecessary information. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
+It is supposed to look modern without being over-stylised. The font was obtained from Google Fonts at: [https://fonts.google.com/](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
 
+Overall the same font is consistently used throughout the site. However, differences in use for different header and text elements are subject to text transformations and letter spacing.
+For example the h1 element is capitalised as it was thought that the logo should be displayed as one would write their own name, whereas other header elements are uppercased to demand attention and spaced more for readibility.
+Line height and letter spacing is used to provide distinctive difference between all text elements on different screen sizes, mainly for paragraph elements containing large ammounts of text.
 
-- discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
-- Clarity of letters, putting a capital i next to a lower case L is always a good test
-- include screenshots of fonts used and links to the appropriate website ex) https://fonts.google.com/specimen/Raleway
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfa7693e-37b8-4518-a90f-6654ba32a752)
+
+Originally, as the site is a developer portfolio, the desired font was intended to be similar to what may be used on IDEs - which explains the similarity to the font within this README.
 
 ### Imagery
-🚀 **merit & beyond**
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfe0acd8-d6cb-47cd-ba79-dc0412bb6132)
 
-Explain why you used certain icons and images on your site & tie it back into your target audience
+The above screenshot shows the drop-down navigation menu, in mobile format, with it's corresponding icons. 
+Each fonticon was obtained from https://fontawesome.com/ and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
+
+The icon used in the top-right corner is used to toggle the drop-down menu. To reinforce the developer theme the '</>' icon would be another subtle hint towards this. 
+Furthermore, the menu items were originally wrapped in '<>' brackets to indicate the active page. However there was difficulty with formatting and the idea was exchanged for a simple greater-than sign. 
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b06f5148-cad7-42bc-ac84-75a7e2897fae)
+
+The above images shows the bottom of the form on the contact page - reset and check-mark icons are used inplace of text. 
+Although understandable that accessibility becomes a concern with icons alone it was a conscious choice to maintain this aesthetic for the form.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/49d6f105-76f4-4e6c-be6d-6fcec817993c)
+
+Above is a full-size version of the hero image on the index page. The image in particular was chosen because of 3 core elements relatable to the author:
+- The image is somewhat abstract in nature, and created with a geometric style that is favoured by the author.
+- The colour palette in the image was what the author was looking for, and helped to define the colour pallette of the rest of the site.
+- The naturalistic art style involving a mountain evokes feelings of liberation and beauty, and that one can do anything - relating to the author aspiring to be a developer and having ambition towards aesthetic design.
+- Ultimately the image symbolises the characteristics of the author; the love for maths, graphic/computer design and to challenge oneself.
+
+
+The hero images used as backgrounds across the site are intended to tell a visual story about the author, and what they can expect from them either in a career or collaborative role.
 
 ### Animations and Transitions
 🚀 **merit & beyond**
