@@ -18,6 +18,7 @@ body {
     /* Variables for repeat use in styling */
     --oklch-white: oklch(100% 0 0);
     --white-glow: 0px 0px 10px oklch(100% 0 0 / 70%);
+    --container-shadow: 0 5px 20px oklch(0% 0 0 / 50%);
     /* Body default font colour */
     color: var(--oklch-white);
 }
@@ -37,10 +38,10 @@ header {
     /* Fixes header to top of screen so it is always visible when scrolling */
     position: fixed;
     width: 100%;
-    background-color: oklch(0% 0 0 / 20%);
+    background-color: oklch(0% 0 0 / 0%);
     /* Blur and box-shadow effect, layered above profile image */
     backdrop-filter: blur(25px);
-    box-shadow: 0 5px 20px oklch(0% 0 0 / 50%);
+    box-shadow: var(--container-shadow);
     /* Sets header to top layer on page */
     z-index: 15;
     border-radius: 0 0 18px 18px;
@@ -221,7 +222,7 @@ main {
     padding-bottom: 10px;
     background-color: oklch(0% 0 0 / 30%);
     backdrop-filter: blur(25px);
-    box-shadow: 0 5px 20px oklch(0% 0 0 / 52.16%);
+    box-shadow: var(--container-shadow);
     border-radius: 15px;
 }
 
