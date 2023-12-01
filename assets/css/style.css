@@ -505,7 +505,6 @@ textarea::placeholder {
 .submit-button {
     color: inherit;
     background-color: oklch(90% 0 0 / 20%);
-    ;
     border: solid 1px oklch(90% 0 0 / 50%);
     box-shadow: 5px 5px 10px oklch(0% 0 0 / 40%);
     padding: 4px 20px;
@@ -514,7 +513,7 @@ textarea::placeholder {
 
 /* Footer */
 footer {
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: oklch(0% 0 0 / 20%);
     backdrop-filter: blur(25px);
     box-shadow: 0 -5px 20px oklch(0% 0 0 / 50%);
 }
@@ -562,10 +561,12 @@ footer h3 {
 
     .nav-toggle-label,
     span {
+        /* Removes nav toggle button for larger screens */
         display: none;
     }
 
     nav {
+        /* Makes nav bar show accross header */
         display: block;
         position: absolute;
         width: 100vw;
@@ -585,6 +586,7 @@ footer h3 {
     }
 
     .menu li {
+        /* Removes border that shows in drop-down nav-bar */
         border: none;
         padding: 0;
     }
@@ -634,8 +636,7 @@ footer h3 {
     #contact-page h2,
     #contact-page h3 {
         font-size: 1.5em;
-}
-
+    }
 
     /* Footer */
     .social-networks i {
@@ -649,8 +650,8 @@ footer h3 {
     }
 
     /* CV page */
-
     .professional-summary {
+        /* Spaces out text content over set height, inline with the side-bar */
         position: relative;
         margin-left: 370px;
         height: 840px;
@@ -662,6 +663,7 @@ footer h3 {
 
     .side-bar-1,
     .side-bar-2 {
+        /* Absolute positioning needed to remove content from flow and fix to side */
         position: absolute;
     }
 
@@ -696,16 +698,16 @@ footer h3 {
     }
 
     #cv-contact h2 {
-        font-size: 180%;
+        font-size: 1.8em;
     }
 
     #contact-page h2,
     #contact-page h3 {
-        font-size: 150%;
+        font-size: 1.5em;
     }
 
     .radio-position {
-        font-size: 180%;
+        font-size: 1.8em;
         margin-left: 60px;
     }
 
@@ -718,12 +720,12 @@ footer h3 {
 
     .enter-details input,
     .text-box-size {
-        font-size: 150%;
+        font-size: 1.5em;
         min-width: 310px;
     }
 
     .submit-button {
-        font-size: 150%;
+        font-size: 1.5em;
     }
 
 }
@@ -755,6 +757,7 @@ footer h3 {
     }
 
     .footer-divider {
+        /* Displays footer divider on larger screens only */
         display: inline-block;
     }
 
@@ -838,6 +841,7 @@ footer h3 {
     }
 
     input[type="radio"] {
+        /* Hides radio bullet without removing from flow so it can be selected with keyboard */
         display: block;
         width: 0;
         height: 0;
@@ -845,24 +849,26 @@ footer h3 {
 
     .radio-position label:hover,
     .text-input:hover {
-        border: solid 1px oklch(83.06% 0.1336 69.83);
+        border: solid 1px oklch(80% 0.1 70);
     }
 
     nav li,
     footer i,
     #reset,
     #submit {
+        /* Sets an animation length on hover */
         transition: 0.3s;
+    }
+
+    
+    #reset:hover {
+        color: oklch(80% 0.1 70);
     }
 
     nav li:hover,
     footer i:hover,
-    #reset:hover {
-        color: oklch(83.06% 0.1336 69.83);
-    }
-
     #submit:hover {
-        color: green;
+        color: oklch(100% 0.15 200);
     }
 
 }
