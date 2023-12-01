@@ -1,31 +1,3 @@
-<!-- # OVERVIEW
-
-This template was made as a guide to ensure you cover assessment criteria in your second milestone write up. It is specific to the **PORTFOLIO 1: HTML/CSS Essentials** project. It was based off the [loves running readme.md](https://github.com/lucyrush/readme-love-running#readme) with a few additions to help elevate you to possible distinction status.
-
-
-Sections marked as 🚨**Required**  and 🚀 **merit & beyond**
-
-**Please note** that project assessment criteria changes more often than these guides are updated so double-check the submission criteria before assuming the  🚨**Required**  is all you have to do to pass.
-
-## Helpful tools
-
-### Screenshots and Videos
-**Here’s a great video on how to add videos to your readme! no need to convert to gifs!!**
-
-https://www.youtube.com/watch?v=G3Cytlicv8Y
-
-> 1. record a video via slack
-> 2. download it
-> 3. in github, edit your readme via the pencil icon
-> 4. type a place holder word and highlight it
-> 5. drag and drop mp4 file over that text
-> 6. scroll down to the commit area
-> 7. update the default commit message
-> 8. click the green button
-> 9. ```git pull``` changes to your gitpod workspace
-
-**You can do the steps 3-9 for the image/screenshot uploads too!**
-
 ### Cheatsheets and Auto Generation Tools
 
 Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
@@ -111,6 +83,10 @@ The pallet shown above however attempts to simplify the colour theme of the site
 The home page is an exception; it contains beautiful background art which would be used to set the theme of the rest of the site. Solid colours were specifically ommited and gradients were used overall to make the site as intersting to look at as possible.
 The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
+After researching into what colour format would work best, oklch was discovered as an effective tool for creating colours which are comfortable to look at while having the potential to adjust the true hue of a colour based on how the human eye sees colour. 
+Therefore, after considering HSL format, oklch colour formatting would be used throughout this project. An article explaining the benefits of oklch can be found in the following link:
+https://blog.logrocket.com/oklch-css-consistent-accessible-color-palettes/#:~:text=Understanding%20OKLCH%20syntax,-The%20oklch()&text=L%20%3A%20Lightness%20defines%20how%20close,with%20a%20more%20saturated%20color.
+
 ### Typography
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/27540bbb-74f1-4901-8c13-25b9b5b16e29)
 
@@ -147,41 +123,43 @@ Above is a full-size version of the hero image on the index page. The image in p
 - The naturalistic art style involving a mountain evokes feelings of liberation and beauty, and that one can do anything - relating to the author aspiring to be a developer and having ambition towards aesthetic design.
 - Ultimately the image symbolises the characteristics of the author; the love for maths, graphic/computer design and to challenge oneself.
 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6188fb52-612e-420f-afb0-9bb474566f22)
+
+Lastly, the above image is the hero background used on all pages other than the home page. It has characteristics of the index page image but simplified for use as a texture so that it does not distract from the page content.
+It retains elements of colour gradients and geometric styling so that it still remains consistent with the overlall theme. This image has a filter(hue-rotate) applied to it on the portfolio and contact pages to differentiate them by colour.
 
 The hero images used as backgrounds across the site are intended to tell a visual story about the author, and what they can expect from them either in a career or collaborative role.
 
 ### Animations and Transitions
-🚀 **merit & beyond**
+The contact page contains hover-states for a mouse cursor over any of the input fields (including radio buttons) to indicate what is an interractable element. A 1px border-colour similar to orange is used using oklch to contrast against the green-hue background.
+Furthermore, a hover-transition is used as a pseudo-animation without the need for JavaScript; of which is used to highlight nav-bar elements, the interactable footer icons as well as the reset and submit form buttons.
+Please see the embedded video below shich showcases this in effect:
 
-- discuss any special animations or transitions you've included 
-- special hover state effects
+https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/a3d5bc01-934b-49f3-817a-48294006ecce
 
 ## Site Structure
-🚀 **merit & beyond**
-
-Talk about if the site is 1 page vs multiple pages. Say what loads by default & how to get access to other pages/sections.
+The site is split across 4 pages, and will load the home (about me) page by default.
+Navigating to the other pages can be done via the dropdown navigation menu (on mobile-portrait view) or via the nav-bar displayed on tablet screens and larger.
+Examples of these have been shown in images above.
 
 ## Design Elements
-🚀 **merit & beyond**
-
-what are some of they key User Interactive elements and bits of functionally you will have on your site:
-tables, accordions, maps, videos, forms with inputs, text areas, select/dropdowns
+The kay interactive elements on the site can be broken down into the following:
+- Dropdown nav-menu showing active page.
+- Nav-bar showing active page with hover-transition effects on mouse cursor.
+- Contact page form with inputs, interactable radio selection, text area, reset and submit buttons.
+- Footer links with hover-transition effects on mouse cursor.
+- Portfolio page video showcasing the entire site as a form of tutorial.
 
 ## Wireframes
-🚀 **merit & beyond**
+Mobile-wireframe
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/88ae27ad-97e3-457e-bcde-7128b7bf4b9d)
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a separate .md file, or open a pdf file in the project itself or screenshots in line.
+Tablet-wireframe
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/db07b777-86e7-410e-9e58-6c5cd48c6cb9)
 
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product. Or you can use the [Balsamiq](https://code-institute-room.slack.com/archives/C0L316Z96/p1640099614368000) tool that Code Institute provides students access to. 
-
-## mobile wireframes
-🚀 **merit & beyond**
-
-## tablet wireframes
-🚀 **merit & beyond**
-
-## desktop wireframes
-🚀 **merit & beyond**
+The wireframe used to sketch out the concept of the site was created via Balsamiq Wireframes. 
+The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. 
+Larger screen sizes would expand on the structure used to display the site on a tablet and scaled up for the most part.
 
 # Features
 🚨**Required** 
