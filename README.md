@@ -49,7 +49,6 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
 
-
   ![am-i-responsive-screenshot](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/56bfb37a-6b36-4eb7-b526-3a11c2d8bad6)
 
   - Repository for this project can be found via the following link: https://github.com/Viridi-Machina/p1-my-portfolio
@@ -59,7 +58,6 @@ Users will be able to intuitively navigate a modern and tasteful landing page wh
 ## Author
 Jacen Green
 
-
 ## Contents
 
 Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
@@ -67,54 +65,57 @@ Generate after readme is complete by copying and pasting your readme from this p
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 ## UX
-> ## Target Audience
-> My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
-> 
-> Incidentally it could also be used by other front-end enthusiasts who might take inspiration for their own projects.
->
-> The style and general theme of the site is designed to be gender neutral, with aestheitics and interactions that provoke comfort and curiosity.
+### Target Audience
+My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
 
-> ## Project Goals
+Incidentally it could also be used by other front-end enthusiasts who might take inspiration for their own projects.
 
-Write bullet points of what this site is trying to achieve.  
-- This site presents X to Y with specific features.
-- Another completely valid project goal is building your skill set with a focus on HTML and CSS :)
+The style and general theme of the site is designed to be gender neutral, with aestheitics and interactions that provoke comfort and curiosity through colour and style.
 
-> ## User Stories
-> ### Employer
-> "As an employer, I need a developer that can quickly showcase their skills and abilites, so that I can make a more straightforward and confident decision when recruiting"
->
-> ### Experienced Developer
-> "As a font-end developer, I want to collaborate and seek help with my own projects, so that I can meet my own goals / deadlines and increase my social circle"
->
-> ### New Developer
-> "As an aspiring developer learning HTML and CSS, I want to find inspiration, so that I can further my own skillset and create my own projects"
+### Project Goals
+This site presents:
+- A Home page with a summary of the author.
+- A CV page which shows work history and skills obtained through past experience.
+- A Contact page with a submission form that allows the selection of an enquiry type and a text-area for typing extra information regarding the enquiry.
+- A Portfolio page which showcases completed projects.
 
+All pages present a fixed header with a dropdown menu which expands into a traditional navigation bar on tablet screen sizes and above.
+A footer at the bottom of each page offers links to the author's Github project portfolio, Linkedin profile and on larger screens there is also space for contact details.
+For larger screen sizes, such as laptops and desktop monitors, hover and hover-transition effects have been implemented to further improve the user experience and provide clarity of action.
+The site aims to be responsive for most common screen sizes and has been created with a mobile-first deisgn philosophy in mind.
+ 
+The key goal of the site however is a proof-of-concept personal portfolio which will be branched from; it will be expanded upon and generally improved as the author learns more coding languages and unlocks new possibilities with regards to deisgn and interactivity.
 
-### Site User Stories
-🚀 **merit & beyond**
+### User Stories
+#### Employer
+- "As an employer, I need a developer that can quickly showcase their skills and abilites, so that I can make a more straightforward and confident decision when recruiting"
 
-### Website Owner Stories
-🚀 **merit & beyond**
+#### Experienced Developer
+- "As a font-end developer, I want to collaborate and seek help with my own projects, so that I can meet my own goals / deadlines and increase my social circle"
 
-### Developer Stories
-🚀 **merit & beyond**
+#### New Developer
+- "As an aspiring developer learning HTML and CSS, I want to find inspiration, so that I can further my own skillset and create my own projects"
 
-## Design Choices Stories
-🚀 **merit & beyond**
+### Owner Stories
+- "As an aspiring developer, I want to showcase my work and portfolio in a way that gives me an edge over other possible candidates, so I have the best chance of getting my desired role"
+- "As an aspiring developer, I want other developers to see my work and contact me, so that I may gain experience through collaborative efforts and increase my portfolio and social circle"
 
-Your site is most likely geared to a certain audience, and your design choices should tie into them. Let the assessors know your thought process.
-
-You may want to re-watch the videos about the [5 planes of UX development ](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/22905698f3be425d918ebc64c87801b7/9c295bdc5a4048308460e262b14ab7df/) when writing up this section
+## Design Choices
 
 ### Colors
-🚀 **merit & beyond**
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/1e41ee34-d1e7-4ed1-ac10-de5866c4e44c)
 
-- Discuss your color pallet choices and how it ties into users' emotions or target audience.
-- include a screenshot of your pallet using a tool like [coolors.co](https://coolors.co/)
+The site uses a lot of texture in colour with backgrounds that cover each page, as well as blur-filters and transparency to highlight content - as a result it is difficult to select a definitive colour pallet. 
+The pallet shown above however attempts to simplify the colour theme of the site; each page has a distinctive colour-theme with hue variations to indicate that the user is on a different page but still within the same site.
+
+The home page is an exception; it contains beautiful background art which would be used to set the theme of the rest of the site. Solid colours were specifically ommited and gradients were used overall to make the site as intersting to look at as possible.
+The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
 ### Typography
-🚀 **merit & beyond**
+The chosen font, 'figtree', is intended to provide a comfortable read for the user. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
+It is supposed to look modern without being over-stylised. Overall the same font is consistently used throughout the site
+
+
 
 - discuss font size, font types for headers vs buttons vs general text and how it ties into users' emotions or target audience.
 - Clarity of letters, putting a capital i next to a lower case L is always a good test
