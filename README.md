@@ -49,11 +49,12 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 
 Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
 
-  > ***! Insert picture of final product in responsive states***
 
-  > ***! Insert link to repository***
+  ![am-i-responsive-screenshot](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/56bfb37a-6b36-4eb7-b526-3a11c2d8bad6)
 
-  > ***! Include a link to deployed project (typically a GitHub Page on  github.io)***
+  - Repository for this project can be found via the following link: https://github.com/Viridi-Machina/p1-my-portfolio
+
+  - Deployment of the live site can visited via the following link: https://viridi-machina.github.io/p1-my-portfolio/
 
 ## Author
 Jacen Green
