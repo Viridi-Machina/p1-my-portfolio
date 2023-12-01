@@ -190,32 +190,6 @@ main {
     z-index: 11;
 }
 
-.languages {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    justify-content: space-evenly;
-    position: relative;
-    top: 45px;
-    z-index: 12;
-    margin-right: 150px;
-}
-
-#html,
-#css {
-    height: 50px;
-    width: 50px;
-    filter: saturate(0.7);
-}
-
-#html {
-    background: url(../images/html-logo.png) no-repeat center / cover;
-}
-
-#css {
-    background: url(../images/css-logo.png) no-repeat center / cover;
-}
-
 .container-style {
     /* Blur-filter and round edge styling for repeat use */
     padding-top: 20px;
@@ -268,17 +242,42 @@ main p {
 }
 
 #contact li {
+    /* Remove list bullets */
     list-style-type: none;
 }
 
-#contact-icons {
+#languages-flex,
+#contact-icons-flex {
     display: flex;
     flex-direction: row;
     flex-basis: auto;
     justify-content: space-evenly;
     position: relative;
-    top: 36px;
     z-index: 12;
+}
+
+#languages-flex {
+    top: 45px;
+    margin-right: 150px;
+}
+
+#html,
+#css {
+    height: 50px;
+    width: 50px;
+    filter: saturate(0.7);
+}
+
+#html {
+    background: url(../images/html-logo.png) no-repeat center / cover;
+}
+
+#css {
+    background: url(../images/css-logo.png) no-repeat center / cover;
+}
+
+#contact-icons-flex {
+    top: 36px;
     margin-right: 160px;
 }
 
