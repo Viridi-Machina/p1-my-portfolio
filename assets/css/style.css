@@ -38,7 +38,7 @@ header {
     /* Fixes header to top of screen so it is always visible when scrolling */
     position: fixed;
     width: 100%;
-    background-color: oklch(0% 0 0 / 0%);
+    background-color: oklch(0% 0 0 / 20%);
     /* Blur and box-shadow effect, layered above profile image */
     backdrop-filter: blur(25px);
     box-shadow: var(--container-shadow);
@@ -229,12 +229,13 @@ main {
 #index-page h2,
 #contact-page h2,
 #contact-page h3 {
+    /* Styles headers of each section */
     padding: 3px 10px 3px 0;
     font-size: 1.2em;
-    border: solid 1px oklch(90.67% 0 0 / 52.16%);
+    border: solid 1px oklch(90% 0 0 / 50%);
     border-right: none;
     border-left: none;
-    background-color: oklch(90.67% 0 0 / 20%);
+    background-color: oklch(90% 0 0 / 20%);
     text-align: end;
 }
 
@@ -625,6 +626,14 @@ footer h3 {
         /* Hides contact information so it can be displayed within the footer */
         display: none;
     }
+
+    /* Index page */
+    #index-page h2,
+    #contact-page h2,
+    #contact-page h3 {
+        font-size: 1.5em;
+}
+
 
     /* Footer */
     .social-networks i {
