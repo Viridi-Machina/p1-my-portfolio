@@ -14,18 +14,16 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 ====================================== The Sections you Fill in are below with some instructions ============================== -->
 
 # P1 - My Portfolio
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/e7581d64-d23a-4cd1-81d1-beea0aaba843)
 
+## Visit the repository [here](https://github.com/Viridi-Machina/p1-my-portfolio) or view the live site [here](https://viridi-machina.github.io/p1-my-portfolio/)
+
+## Summary
 *My Portfolio* is a responsive personal resume designed for two primary user-types:
 - Employers screening and looking to hire new developers
 - Other developers looking for design inspiriation or looking for collaborative work
 
 Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
-
-  ![am-i-responsive-screenshot](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/56bfb37a-6b36-4eb7-b526-3a11c2d8bad6)
-
-  - Repository for this project can be found via the following link: https://github.com/Viridi-Machina/p1-my-portfolio
-
-  - Deployment of the live site can visited via the following link: https://viridi-machina.github.io/p1-my-portfolio/
 
 ## Author
 Jacen Green
@@ -84,14 +82,13 @@ The home page is an exception; it contains beautiful background art which would 
 The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
 After researching into what colour format would work best, oklch was discovered as an effective tool for creating colours which are comfortable to look at while having the potential to adjust the true hue of a colour based on how the human eye sees colour. 
-Therefore, after considering HSL format, oklch colour formatting would be used throughout this project. An article explaining the benefits of oklch can be found in the following link:
-https://blog.logrocket.com/oklch-css-consistent-accessible-color-palettes/#:~:text=Understanding%20OKLCH%20syntax,-The%20oklch()&text=L%20%3A%20Lightness%20defines%20how%20close,with%20a%20more%20saturated%20color.
+Therefore, after considering HSL format, oklch colour formatting would be used throughout this project. An article explaining the benefits of oklch can be found in this [link.](https://blog.logrocket.com/oklch-css-consistent-accessible-color-palettes/#:~:text=Understanding%20OKLCH%20syntax,-The%20oklch()&text=L%20%3A%20Lightness%20defines%20how%20close,with%20a%20more%20saturated%20color.)
 
 ### Typography
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/27540bbb-74f1-4901-8c13-25b9b5b16e29)
 
 The chosen font, **'Figtree'**, is intended to provide a comfortable read for the user by providing clarity and removing unnecessary information. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
-It is supposed to look modern without being over-stylised. The font was obtained from Google Fonts at: [https://fonts.google.com/](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
+It is supposed to look modern without being over-stylised. The font was obtained from [Google Fonts](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
 
 Overall the same font is consistently used throughout the site. However, differences in use for different header and text elements are subject to text transformations and letter spacing.
 For example the h1 element is capitalised as it was thought that the logo should be displayed as one would write their own name, whereas other header elements are uppercased to demand attention and spaced more for readibility.
@@ -105,7 +102,7 @@ Originally, as the site is a developer portfolio, the desired font was intended 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfe0acd8-d6cb-47cd-ba79-dc0412bb6132)
 
 The above screenshot shows the drop-down navigation menu, in mobile format, with it's corresponding icons. 
-Each fonticon was obtained from https://fontawesome.com/ and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
+Each fonticon was obtained from [fontawesome](https://fontawesome.com/) and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
 
 The icon used in the top-right corner is used to toggle the drop-down menu. To reinforce the developer theme the '</>' icon would be another subtle hint towards this. 
 Furthermore, the menu items were originally wrapped in '<>' brackets to indicate the active page. However there was difficulty with formatting and the idea was exchanged for a simple greater-than sign. 
