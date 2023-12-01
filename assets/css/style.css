@@ -19,6 +19,7 @@ body {
     --oklch-white: oklch(100% 0 0);
     --white-glow: 0px 0px 10px oklch(100% 0 0 / 70%);
     --container-shadow: 0 5px 20px oklch(0% 0 0 / 50%);
+    --hover-colour: oklch(80% 0.1 55 / 90%);
     /* Body default font colour */
     color: var(--oklch-white);
 }
@@ -295,7 +296,7 @@ main p {
 }
 
 #contact a:hover {
-    color: oklch(83.43% 0.095 55.12 / 87%);
+    color: var(--hover-colour);
 }
 
 /* CV page */
