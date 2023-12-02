@@ -285,36 +285,27 @@ Larger screen sizes would expand on the structure used to display the site on a 
 - Tablet: Content is displayed in a grid layout.
 - Laptop and larger: Left-hand content is fixed as a side-bar while the remaining content scrolls. Max-width and margins are also set to shift content into available space without disrupting the format.
 
-It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
+## 404 Page
 
-Don't forget your 404 error page.
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<details>
+ <summary>View 404 error page</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6542f254-244f-457d-abb1-514331950170)
+</details>
 
 ## Future Features
-🚀 **merit & beyond**
 
-Use this section to discuss plans for additional features to be implemented in the future
+- **Priority-low:** With the use of JavaScript this project will aim to have subtle animations that improve the overall style and user experience even further.
+- **Priority-Medium:** A 'thank you' page in the same format and style as the site, which displays after successfully submitting a form.
+- **Priority-Medium:** Form submission functionality that sends data to the author for analysis and response.
+- **Priority-High:** Add to the portfolio page with multiple projects as the author's portfolio increases over time.
+- **Priority-High:** Responsive video functionality to the portfolio page, where other projects will be displayed.
 
-If you end up not developing some features you hoped to implement, you can include those in this section too.
-
+### Features not present
+Due to the scope of the project, the portfolio page content was ommited from this site as it was dependent on the finished site before working on. 
+With the large ammount of styling and bugs along the way not enough time was reserved to coomplete this.
 
 ## Testing
-🚨**Required** 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the Features section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Validation Testing
-🚨**Required** 
-
-In this section you should write up any websites you used to validate your code and include screenshots.
-
-**Validation issues are an automatic failure** You should run these about 3 times:
-- when you first deploy your site
-- just when you think you are done testing
-- right before you submit because 😼, ⚽, 🐶 & 👼 can eliminate a closing tag or curly bracket without you noticing.
 
 ### CSS Validation
 🚨**Required** 
@@ -329,7 +320,14 @@ If you only have one CSS file used on all pages, you only need to run this once 
 ![img.png](documentation/images/css-validation.png)
 
 ### HTML Validation
-🚨**Required** 
+
+All .html files pass file validation using the [Nu Html Checker](https://validator.w3.org/).
+
+<details>
+ <summary>View index.html validation</summary>
+ 
+ 
+</details>
 
 If you only have one HTML file for your project, you only need to run this once for your deployed url, but if you have different files even for a thankyou or 404, run it by direct input per file or by deployed url per file.
 
