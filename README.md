@@ -168,10 +168,18 @@ The kay interactive elements on the site can be broken down into the following:
 
 ## Wireframes
 Mobile-wireframe
+<details>
+ <summary>View mobile wireframe</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/88ae27ad-97e3-457e-bcde-7128b7bf4b9d)
+</details>
 
 Tablet-wireframe
+<details>
+ <summary>View tablet wireframe</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/db07b777-86e7-410e-9e58-6c5cd48c6cb9)
+</details>
 
 The wireframe used to sketch out the concept of the site was created via Balsamiq Wireframes. 
 The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. 
@@ -180,10 +188,102 @@ Larger screen sizes would expand on the structure used to display the site on a 
 ## Implemented Features
 
 ### Navigation
+
+## Header
+<details>
+ <summary>View mobile header</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/aed8def9-9fd1-43f8-bef3-4ac706f13117)
+</details>
+
+<details>
+ <summary>View mobile header (collapsed)</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/48ff40c7-b720-47b9-ad25-d1d6e74560b6)
+</details>
 
+<details>
+ <summary>View larger header</summary>
 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/565450c2-4dfb-4319-936e-ad730e10d103)
+</details>
+
+- <strong>Fixed header:</strong> The site features a fixed header that remains in place when scrolling, so the user can always navigate to another page or back to the top.
+- <strong>Drop-down menu:</strong> On mobile screens the site features a drop-down menu with icons and active-page styling to allow intuitive navigation of other pages using touchscreens.
+- <strong>Nav-bar:</strong> On tablets and larger screens a fixed horizontal nav-bar shows all page links with icons and active-page styling. On even larger monitors the max-width of the nav-bar is fixed so that it doesn't stretch too much.
+
+## Footer
+<details>
+ <summary>View mobile footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/df150f1b-47f2-4956-a790-64d3b9c96f35)
+</details>
+
+<details>
+ <summary>View tablet footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/3628ecda-04d4-4820-957d-fbedf3ccfc39)
+</details>
+
+<details>
+ <summary>View laptop footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b466619a-1436-4217-8fbf-e59f166f17eb)
+</details>
+
+<strong>Responsive footer:</strong> The footer goes through 3 stages when increasing in screen size:
+- Mobile: With less screen space a simplified footer only shows social network links with icons.
+- Tablet: Contact details are added with between the icons.
+- Laptop and larger: Contact details are given a divider, flexed into a horizontal row and re-ordered to before the icons.
+
+## Home Page
+<details>
+ <summary>View home page content (mobile)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/c2c6e1c1-b4aa-416a-85e9-3c6da007f8b2)
+</details>
+
+<details>
+ <summary>View home page content (tablet)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/64e0286c-fda6-46ad-b420-bf15de84b7bf)
+</details>
+
+<details>
+ <summary>View home page content (laptop)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/0da1e9c9-95fa-4549-9933-9d7f438f6304)
+</details>
+
+<strong>Responsive content:</strong> The text boxes go through 3 stages when increasing in screen size:
+- Mobile: With less screen space the text box touches the edges of the screen.
+- Tablet: Max-width is set.
+- Laptop and larger: Higher max-width is set.
+
+## Contact Page
+
+<details>
+ <summary>View CV page (mobile)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/20cf1ca6-eb74-4b97-a7d7-66daff62f4f9)
+</details>
+
+<details>
+ <summary>View CV page (tablet)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/d0d26a81-4173-4082-9a2c-f65f56ac58f3)
+</details>
+
+<details>
+ <summary>View CV page (laptop)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/40e0f237-66ad-4d56-8c48-f23e27c47efd)
+</details>
+
+<strong>Responsive content:</strong> The text boxes go through 3 structural changes when increasing in screen size:
+- Mobile: With less screen space the text box touches the edges of the screen and flows as a column.
+- Tablet: Content is displayed in a grid layout.
+- Laptop and larger: Left-hand content is fixed as a side-bar while the remaining content scrolls. Max-width and margins are also set to shift content into available space without disrupting the format.
 
 It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
