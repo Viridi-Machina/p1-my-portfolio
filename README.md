@@ -426,86 +426,78 @@ As a compromise testing has been conducted only with the most used browser.
 There are some minor fixes that would overall improve the detailing finess of the site, however the core functionality of the site - the home page and the contact page - remains in good form.
 
 ## Core Web Vitals
-🚀 **merit & beyond**
-SEO is greatly impacted by your core web vitals. The readout from https://web.dev/measure/ which is essentially a lighthouse audit gives your site scores in 4 categories. Ideally you want your site to be in the green for all 4 scores. web.dev has dedicated servers to test deployed sites without extensions that skew the results, so it's best to get results from this site.
- You should talk about the results for each section pay attention to 
 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/0857aef5-81b1-464a-ac91-895112e031c1)
+
+The above screenshot was taken from [web.dev](https://web.dev/measure/) where the deployed site was entered for testing. The scoring was as follow:
+- **Best Practices 100%**
+- **SEO 100%**
+- **Performance 94%** - The score here was reduced mainly because of the large image size used for the home page - however this is not something that can be compromised as it is an integral part of the page.
+- **Accessability 89%** - This score is reduced because of apparent contrast issues with the white text over a dark background.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/580f735f-8292-49c9-81bf-68f2db462386)
+
+The above image shows 2 key reasons why the score has been affected.
+1. There is no label for the form element <input type="checkbox">, but this is because the content contained must be a <i> fonticon.
+2. There are apparent contrast issues with the white text. In this case however, I believe that this hsa been flagged as a false-positive.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/00268972-3659-4709-ae50-cfffd3262cfa)
+
+Using the Colour Contrast Analyzer linked on **web.dev** contrast accessabnility can be manually tested; using the dropper tool for colour selection on a variety of different background spots all yield the same result - minimum AA PASS.
+The font size meets the minimum requirements for large text and even then it is difficult to find colour spots where the contrast ratio is near or below 4.5:1.
+I believe that because the blur filter is being used and overlayed with a background colour (for contrast), the testing tool is having difficulty determining an accurate response and flagging all text as low contrast even though it can be clearly read.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/75e757f7-ca08-4c51-97d2-c00f87c6ba9b)
+
+Note that the background has also been darkened further, but is still flagging the exact same issues.
 
 ## Accessibility Testing
-🚨**Required** 
-
-Accessibility testing is aimed to make sure that those with visual or physical disabilities can still browse your website. Some users have had strokes or accidents that make it difficult to use a mouse, so they use keyboard keys to tab through sites. Others use screen readers that rely on HTML tags to help the user navigate quickly through the site to find information they want, others have color blindness or contrast issues. It's the law to provide services 
-Here's a [site](https://www.w3.org/WAI/fundamentals/accessibility-intro/#:~:text=Accessibility%20is%20Important%20for%20Individuals%2C%20Businesses%2C%20Society,-The%20Web%20is&text=That%20is%2C%20the%20accessibility%20barriers,older%20people) where you can learn more about accessibility and the internet.
-
-### Accessibility Audits
-🚨**Required** 
-
-Accessibility audits run through the HTML and determine if the parts of the WCAG (web content accessibility guidelines ) that are implemented through HTML tags and attributes are present. They can do some checking for low vision/contrast stuff too.
-
-You should run your deployed website pages through  at least on auditing tool. lighthouse's audit to check performance, accessibility, best practices and SEO scores. You should aim to get 85 or higher score on accessibility. 
-
-**You should fix issues associated with:**
-- contrast 
-- aria labels
-- alt text
-- large images
-- skewed images
-
-**Lighthouse**
-https://web.dev/measure/  If you have lower scores, read the report and follow the links to address the flagged issues. You can run this tool from Chrome Dev Tools too against your local machine, but chrome extensions can sometimes give you missing alt text on things like the grammarly plug in tracking pixel.
-
-You want a score in the green for accessibility and should look at ways to get it to 100.
-
-
-
-**[WAVE chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US) extension**
-Wave is developed by webaim.org and does a bit better at contrast issues and uses 2.1 guidelines
-
-**Contrast Checkers**
-- https://webaim.org/resources/contrastchecker/
-- https://color.a11y.com/
 
 ### Keyboard Navigation
-🚀 **merit & beyond**
+Care has been taken to ensure that keyboard functionality remains an option. For example, a decision was made to reduce the opacity of the radio bullets in the contact page rather than **display:none;** so that they could still be selected and navigated with the arrow keys.
+Likewise the nav-bar has kept the nav-toggle bullet but with reduced opacity so that it is invisible yet functional.
 
-Another way to accessibility test your site is to try to click on the browser URL and see what happens if you use the tab, arrow and enter keys. Does it work well or does the user get stuck? Check this in a couple browsers as the focus & active outlines are typically styled by the browser
-
-The expected results for various keyboard entries and field types can be found [here](https://webaim.org/techniques/keyboard/#testing)
-
-You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record something to yourself in a Slack direct message, then download it. Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GiHu, and it'll resolve itself.
+https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/0e4cfc25-cc8c-4e5b-861a-a1dd1dcd861c
 
 # Technologies Used
 
 ## Languages
-🚀 **merit & beyond**
-
--write bullet points for the languages you used (HTML & CSS)
+- HTML5
+- CSS3
 
 ## Frameworks, Libraries & Programs Used
-🚀 **merit & beyond**
-
-List out the tools you used with a link and a short description (this helps others figure out where to get the bonus points & reminds you what you used for your next project
-- Balsamiq
-- Coolors.co
-- fontawesome
-- github
-- google fonts
-- font awesome
-- amiresponsive
+- [Balsamiq](https://balsamiq.com/wireframes/) - A powerful tool for creating wireframes.
+- [Coolors.co](https://coolors.co/) - Used to creat colour pallette for demonstration.
+- [fontawesome](https://fontawesome.com/) - Large library with icons for almost anything.
+- [google fonts](https://fonts.google.com/) - Vast array of chrome supported fonts that can be imported through the browser.
+- [amiresponsive](https://ui.dev/amiresponsive) - Allows quick showcase of any site, with interactable screens.
 - table of contents creator
+- VSCode - Primary IDE.
 
 
 # Deployment
-🚨**Required** 
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
-
--Enumerate steps and use screenshots to make the instructions are clear.
-
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
 
 ## Deploy to GitHub Pages
-🚨**Required** 
+
+1. To deploy a repository to GitHub Pages, first navigate to repository's main page.
+2. Navigate to the settings button in the top nav-bar.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/716e6449-caf7-45c8-9148-53a41efeebf4)
+
+3. Under 'Code and automation' navigate to 'Pages' in the left-hand side-bar.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6496640f-4056-4b3c-b603-166a09c336ca)
+
+4. Ensure that the 'Source' is set to 'Deploy from a branch', 'main' branch is selected and /(root) folder is selected. Hit save.
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/184c61b2-8f92-43d1-a198-8e64447a6149)
+
+5. Navigate back to <> Code, and on the right-hand side of the screen there should be a new 'deployments' section.
+   Do note that this could take a few minutes for the repository to deploy.
+
+   ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/d4e25b5b-29be-48dc-8887-73efeaf3bba1)
+
+7. Finally, cick on the 'Deployments' header and you can view your live site from any platform.
 
 Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
