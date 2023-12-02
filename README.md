@@ -308,16 +308,22 @@ With the large ammount of styling and bugs along the way not enough time was res
 ## Testing
 
 ### CSS Validation
-🚨**Required** 
 
-If you only have one CSS file used on all pages, you only need to run this once for your deployed url, but if you have different files for different pages, run it by direct input per file.
+<details>
+ <summary>View style.css validation</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/8f01fa61-cd4d-4972-8a4e-d7a47059d090)
+ </details>
 
-- include a screenshot for each CSS file which includes the Green no ERRORS bar,  two check marks
+***!NOTE!*** the CSS file would actually pass with [this](https://jigsaw.w3.org/css-validator/) CSS validator. 
+Upon inspection of the errors 33/33 of them are a result of colour formatting either using **oklch** values, or variables which contain **oklch** values.
+Oklch is a browser-compatible with almost all browsers as shown below:
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/bd2559bb-e474-45cd-80e7-207167750088)
+Furthermore, StatCounter also shows that a majority of people are using the latest browsers available:
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6d47de12-4ea5-4453-bf02-d52daeef760d)
+Lastly, **caniuse.com** also shows widespread use of the oklch colour platform.
 
-[CSS validator](https://jigsaw.w3.org/css-validator/)
-
-**styles.css**
-![img.png](documentation/images/css-validation.png)
+As a result these validation errors will be ignored and the file will be considered a pass as it appears to works as intended.
 
 ### HTML Validation
 
@@ -326,145 +332,98 @@ All .html files pass file validation using the [Nu Html Checker](https://validat
 <details>
  <summary>View index.html validation</summary>
  
- 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/9d2acd39-1fc4-4df1-ad07-30a16d44e3c3)
 </details>
 
-If you only have one HTML file for your project, you only need to run this once for your deployed url, but if you have different files even for a thankyou or 404, run it by direct input per file or by deployed url per file.
+<details>
+ <summary>View portfolio.html validation</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/950afeef-f388-47b7-bc39-c17875f01563)
+</details>
 
-- include a screenshot for each HTML file with the Blue Nu Html checker down to the blue checking complete bit. It's ok to have info and warnings. 
-- You may need a scrolling screenshot to capture this one. I tend to use the [GoFullPage extension in chrome](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl):
+<details>
+ <summary>View cv.html validation</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/448e02f2-7615-4f64-bd68-9230c430c99e)
+</details>
 
-[HTML Validator](https://validator.w3.org/)
+<details>
+ <summary>View contact.html validation</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/82481ab0-6efc-40c7-aadb-31b62adb6309)
+</details>
 
-**index.html**
-![img.png](documentation/images/index-html-validation.png)
-
-**404.html**
-![img.png](documentation/images/404-html-validation.png)
+<details>
+ <summary>View 404.html validation</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/3ad5ecb1-853c-4ca6-b14b-d4ca8cca0e75)
+</details>
 
 ## Compatibility and Responsive Testing
-🚨**Required** 
 
-Minimally you should use dev tools and emulators to try to test you site on various screen sizes and browsers and note it in a table:
+The site has been tested on a variety of screen sizes shown in the table below:
 
-I ensured my site was worked well, and looked nice on a variety of devices & browsers as noted in the table below:
+| TOOL / Device                   | BROWSER     | OS         | SCREEN WIDTH     |
+|---------------------------------|-------------|------------|------------------|
+| dev tools emulator: Galaxy fold | chrome      | android    | XS  280  x 653   |
+| real phone: galaxy S20+         | chrome      | android    | M   360  x 800   |
+| dev tools emulator: Pixel 7     | chrome      | android    | M   412  x 915   |
+| dev tools emulator: iPad Mini   | chrome      | ios        | L   768  x 1024  |
+| dev tools emulator: 'Laptop'    | chrome      | win11      | XL  1440 x 1335  |
+| real monitor: desktop           | chrome      | win11      | XXL 2560 × 1440  |
 
-| TOOL / Device                 | BROWSER     | OS         | SCREEN WIDTH  |
-|-------------------------------|-------------|------------|---------------|
-| real phone: motog6            | chrome 78   | android 8  | XS 360 x 640  |
-| browser stack: iPhone5s       | safari  13  | iOs        | XS 320 x 568  |
-| dev tools emulator: pixel 2   | firefox  69 | android 8  | SM 411 x 731  |
-| browserstack: iPhone 10x      | Chrome 78   | iOs 11     | SM 375 x 812  |
-| browserstack: nexus 7 - vert  | Chrome 78   | android 7  | M 600 x 960   |
-| real tablet: ipad mini - vert | safari  13  | iOs 6      | M 768 x 1024  |
-| browserstack: nexus 7 - horiz | firefox 69  | android 7  | LG 960 x 600  |
-| chrome emulator: ipad - horiz | safari 13   | iOs        | LG 1024 x 768 |
-| browserstack windows PC       | Chrome 78   | windows 10 | XL 1920 x 946 |
-| real computer: mac book pro   | safari 12.1 | Mohave     | XL 1400 x 766 |
-| browserstack windows pc       | IE Edge 88  | windows 10 | XL 1920 x 964 |
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/691cb75b-2825-44e9-82f7-6bff9070b862)
 
-
-🚀 **merit & beyond**
-Document why you chose the devices:
-
-1. Visit https://gs.statcounter.com/browser-market-share to figure out the most popular browsers & operating system combos seen across the web for the geographic region, and platform(s) and screen sizes you expect your users to belong to. 
-
-2. Include a sentence about why you chose the combinations you did.
-
-3. Create a table that lists out what devices, browsers, and operating system you tested your application on and a brief description of why you chose the mixture you did. The point is to prove that you looked at the site across various browsers, operating systems, and viewport breakpoints.
-
-4. if you can't find the browser/device/OS combinations you want on Browserstack with your GitHub student webpack (or you didn't activate that in time), note what you'd ideally test on then what you ended up testing on as a compromise. 
-
-5. Build a table to summarize the choices you made [markdown table generator](https://www.tablesgenerator.com/markdown_tables)
-
-The combinations above were chosen because of the following information I gathered  from [ga.statcounter.com]( https://gs.statcounter.com/browser-market-share) for the US from Aug-Oct 2021:
-**browser Version Market Share**:
-  - safari iphone: 26.32%
-  - chrome for android: 21.32%
-  - Chrome 105.0: 15.77%
-  - Chrome 104.0: 6.28%
-  - Edge 105: 4.99%
-  - Safari 15.6 3.76%
-**browser Market Share**
-  - chrome: 50.28%
-  - Safari: 34.65%
-  - Edge: 6.37%
-  - Firefox: 3.52%
-  - Samsung Internet: 2.04%
-  - Opera: 0.89%
-**platform breakdown**
-  - mobile: 51.26%
-  - desktop: 45.73%
-  - tablet: 2.97%
-  - console: 0.03%
+The above image shows a graph from [statcounter.com](https://gs.statcounter.com/browser-market-share) of the most used browsers worldwide, which in this case is predominantly google chome. 
+Ideally testing would be carried out over multiple operating systems, browsers as well as screen sizes however due to the short length of this project it was out of scope to complete a more thourough analysis.
+As a compromise testing has been conducted only with the most used browser.
 
 ## Manual Testing
-🚨**Required** 
 
-For any scenarios that have not been automated, test the user stories/features manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios in markdown such as:
+**Contact Form**
+- [x] Go to the "Contact" page.
+- [x] Try submitting the empty form and verify an error message appears for a missing name field.
+- [x] Try to submit the form with an invalid email address and verify that a relevant error message appears.
+- [x] Try to submit the form valid name and email fields and verify an error message appears for missing text.
+- [x] Press the reset button to ensure the form refreshes.
+- [x] Fill out the form fully and submit, verify a new tab opens to a codeinstitue form-dump page.
 
-**Manual Testing For Contact Form**
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+**404 Page**
+- [x] Try adding a random character to the browser address window, verify that the 404 page displays.
+- [x] Navigate back to the main site using the nav-bar, verify that it still functions as expected.
 
-Or you can use markdown check boxes and write them up per feature:
+**Nav-bar**
+- [x] In mobile format, try selectin the icon in the top right corner, verify it opens the drop-down menu.
+- [x] When open, verify the current page is actively displayed in the nav-bar.
+- [x] Press each of the links and repeat steps 1-2.
+- [x] On a larger screen size such as a laptop, hover over each menu element and verify that it changes colour.
+- [x] Click on each of the links and verify the current page is actively displayed in the navbar.
 
-**Manual Testing For Contact Form**
-- [x] try to submit 
-- [x] Try to submit the empty form and verify that an error message about the required fields appears
-- [x] Try to submit the form with an invalid email address and verify that a relevant error message appears
-- [x] Try to submit the form with all inputs valid and verify that a success message appears.
-- [x] no console errors
-- [x] submit goes to code institute data dump page in new tab
-- [x] looks good on mobile (one column)
-- [x] looks good on tablet (two columns)
-- [x] looks good on desktop (two columns but not SUPER HUGE)
-
-Or you can use a spreadsheet
-    
-Here is a [Manual Testing Template](https://docs.google.com/spreadsheets/d/1vc1IVL-ydQwWeWMqnk_GRox6HE6qxDLpchGse8Crayo/edit#gid=296578096) that you can use as a starting point to keep track of your testing efforts. Make a copy of it in your own account and update as needed to reflect the browsers you are testing and features.  
-
-It's ok to spot check specific functionality across devices and browsers but each page should be viewed as a whole for each device/browser combo at least once.
-
-A quick way to check if items are exceeding the screen width of a project is to run this javascript in the console for various screen emulations:
-
-```
-var docWidth = document.documentElement.offsetWidth;
-[].forEach.call(document.querySelectorAll('*'),function(el){if(el.offsetWidth > docWidth){console.log(el);}});
-```
+**Footer**
+- [x] Click on the icons for github and linkedin, verify that they open in new tabs.
 
 ## Defect Tracking
-🚨**Required** 
-
-Try to create issues in real time as it better reflects the daily life of a developer.
-
-The easiest way to track defects is by using GITHUB's Issues to track these as it's really easy to copy/paste screenshots in and then write up how you closed them. At this stage you don't need a custom template or labels, that comes in P4.
-
-Here's a quick [overview of creating GitHub issues](Defects.md)
-
-You can also just bullet point them here, or create a google spreadsheet and link to that here.
+- Background image for entire page not working as expected. **Resolved**
+- Header position not sticking to top of page, interacting strangely with main content below when toggling nav-bar. **Resolved**
+- Cannot align text and center radio buttons in contact form. **Resolved**
 
 ## Defects of Note
-🚀 **merit & beyond**
-
-Some defects are more pesky than others. Highlight 3-5 of the bugs that drove you the most nuts and link to them directly here. The accessors really like to know the struggle is real and that by doing this you picked up more skills.
+- **Creating a working background image for an entire page** - this was one of the first major hurdles that reuired hours of research, testing, trial and error to get right.
+  Initially the plan was too ambitious and too much was attempted at the same time; originally the goal was to have a perspective scroll for the background image as it is a large portrait.
+  Having to set the height was causing issues with the footer and generlaly ruining the flow of the whole page, if it even displayed correctly.
+- **Fixing the position of the header and nav-bar** - 'position: fixed' was forgotton and thus casued major headache tring to figure out why the content was flowing a particular way.
+  Again, hours spent troubleshooting only to realise one line of code would solve it.
 
 
 ## Outstanding Defects
-🚨**Required** 
+- Index page contact me section - fonticons misaligned since adjusting font-size (need to be lowered)
+- Profile image doesn't increase in size with screen width.
+- Navbar on larger screens - although aligned with logo text it is still too close to the top of the page.
+- Portfolio page missing main content
+- CV page formatting needs work on larger screen sizes to reduce empty space.
+- CV page work history text-padding needs increasing, and has slight overflow at bottom.
 
-It's ok to not resolve all the defects you found as long as:
-- it does not impact a user from completing a vital function on the website
-- it only affects a very small subset of users
-- is an extreme edge case that very few users would try
-- there is an open issue against a framework, browser or technology used
-
-If you know of something that isn't quite right, create an issue and link to it here and explain why you chose not to resolve it. 
-
-Sometimes it's as simple, word wrapping issue that makes the site look odd at a certain screensize that you just didn't have time to fix due to the impending deadline it's best to mention it but note why you allowed it to go live: "Yes it looks odd, but it doesn't impact core functionality of the site." than to let the accessors think you didn't notice it. 
+There are some minor fixes that would overall improve the detailing finess of the site, however the core functionality of the site - the home page and the contact page - remains in good form.
 
 ## Core Web Vitals
 🚀 **merit & beyond**
@@ -515,16 +474,7 @@ The expected results for various keyboard entries and field types can be found [
 
 You can take a video of this testing if you want and convert it to a gif and paste that into your readme. Record something to yourself in a Slack direct message, then download it. Then you can use https://cloudconvert.com/mp4-to-gif to convert the mp4 to a gif and just paste it into the readme via GiHu, and it'll resolve itself.
 
-
-### Chrome Vox Reader
-🚀 **merit & beyond**
-
-If you are really ambitious, you can use the [VoxReader](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en) extension in chrome to see what your site sounds like on a screen reader. It really drives home the need for good aria-labels & semantic HTML.
-
 # Technologies Used
-🚀 **merit & beyond**
-
-This section just summarizers tools and programming languages you used.
 
 ## Languages
 🚀 **merit & beyond**
@@ -538,13 +488,11 @@ List out the tools you used with a link and a short description (this helps othe
 - Balsamiq
 - Coolors.co
 - fontawesome
-- gitpod
 - github
 - google fonts
 - font awesome
 - amiresponsive
 - table of contents creator
-- markdown table generator
 
 
 # Deployment
