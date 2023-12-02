@@ -14,18 +14,16 @@ Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a tab
 ====================================== The Sections you Fill in are below with some instructions ============================== -->
 
 # P1 - My Portfolio
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/e7581d64-d23a-4cd1-81d1-beea0aaba843)
 
+## Visit the repository [here](https://github.com/Viridi-Machina/p1-my-portfolio) or view the live site [here](https://viridi-machina.github.io/p1-my-portfolio/)
+
+## Summary
 *My Portfolio* is a responsive personal resume designed for two primary user-types:
 - Employers screening and looking to hire new developers
 - Other developers looking for design inspiriation or looking for collaborative work
 
 Users will be able to intuitively navigate a modern and tasteful landing page where they will find personal information, view a *showcase* project and efficiently contact the developer for enquiries. This site is designed as a personal portfolio for proffessional use that could be used as a template for those wanting full customisation when avoiding the use of a website builder.
-
-  ![am-i-responsive-screenshot](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/56bfb37a-6b36-4eb7-b526-3a11c2d8bad6)
-
-  - Repository for this project can be found via the following link: https://github.com/Viridi-Machina/p1-my-portfolio
-
-  - Deployment of the live site can visited via the following link: https://viridi-machina.github.io/p1-my-portfolio/
 
 ## Author
 Jacen Green
@@ -37,6 +35,7 @@ Generate after readme is complete by copying and pasting your readme from this p
 **NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
 
 ## UX
+
 ### Target Audience
 My Portfolio is targeted towards modern front-end developer employers who will likely use this to aid in their decision when recruiting, or by other developers looking for project partners in collaborative efforts.
 
@@ -84,38 +83,51 @@ The home page is an exception; it contains beautiful background art which would 
 The desired effect is for uses of the site to feel comfortable and enjoy what they are looking at as they navigate the site, which in turn aims to improve user retention.
 
 After researching into what colour format would work best, oklch was discovered as an effective tool for creating colours which are comfortable to look at while having the potential to adjust the true hue of a colour based on how the human eye sees colour. 
-Therefore, after considering HSL format, oklch colour formatting would be used throughout this project. An article explaining the benefits of oklch can be found in the following link:
-https://blog.logrocket.com/oklch-css-consistent-accessible-color-palettes/#:~:text=Understanding%20OKLCH%20syntax,-The%20oklch()&text=L%20%3A%20Lightness%20defines%20how%20close,with%20a%20more%20saturated%20color.
+Therefore, after considering HSL format, oklch colour formatting would be used throughout this project. An article explaining the benefits of oklch can be found in this [link.](https://blog.logrocket.com/oklch-css-consistent-accessible-color-palettes/#:~:text=Understanding%20OKLCH%20syntax,-The%20oklch()&text=L%20%3A%20Lightness%20defines%20how%20close,with%20a%20more%20saturated%20color.)
 
 ### Typography
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/27540bbb-74f1-4901-8c13-25b9b5b16e29)
 
 The chosen font, **'Figtree'**, is intended to provide a comfortable read for the user by providing clarity and removing unnecessary information. It is a sans-serif font with rounded features that aims to be accessible to all users, though specifically aimed towards demographics of the past two generations. 
-It is supposed to look modern without being over-stylised. The font was obtained from Google Fonts at: [https://fonts.google.com/](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
+It is supposed to look modern without being over-stylised. The font was obtained from [Google Fonts](https://fonts.google.com/specimen/Figtree?preview.text=This%20is%20a%20preview%20of%20the%20Figtree%20font)
 
 Overall the same font is consistently used throughout the site. However, differences in use for different header and text elements are subject to text transformations and letter spacing.
 For example the h1 element is capitalised as it was thought that the logo should be displayed as one would write their own name, whereas other header elements are uppercased to demand attention and spaced more for readibility.
 Line height and letter spacing is used to provide distinctive difference between all text elements on different screen sizes, mainly for paragraph elements containing large ammounts of text.
 
+<details>
+ <summary>View example</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfa7693e-37b8-4518-a90f-6654ba32a752)
+</details>
 
 Originally, as the site is a developer portfolio, the desired font was intended to be similar to what may be used on IDEs - which explains the similarity to the font within this README.
 
 ### Imagery
+<details>
+ <summary>View drop-down menu (mobile)</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/dfe0acd8-d6cb-47cd-ba79-dc0412bb6132)
+</details>
 
 The above screenshot shows the drop-down navigation menu, in mobile format, with it's corresponding icons. 
-Each fonticon was obtained from https://fontawesome.com/ and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
+Each fonticon was obtained from [fontawesome](https://fontawesome.com/) and is used to indicate further clarity to each option without having to read; when using the site after repeated use it becomes second nature to navigate the other pages.
 
 The icon used in the top-right corner is used to toggle the drop-down menu. To reinforce the developer theme the '</>' icon would be another subtle hint towards this. 
 Furthermore, the menu items were originally wrapped in '<>' brackets to indicate the active page. However there was difficulty with formatting and the idea was exchanged for a simple greater-than sign. 
-
+<details>
+ <summary>View form screenshot</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b06f5148-cad7-42bc-ac84-75a7e2897fae)
+</details>
 
 The above images shows the bottom of the form on the contact page - reset and check-mark icons are used inplace of text. 
 Although understandable that accessibility becomes a concern with icons alone it was a conscious choice to maintain this aesthetic for the form.
-
+<details>
+ <summary>View hero image (full-size)</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/49d6f105-76f4-4e6c-be6d-6fcec817993c)
+</details>
 
 Above is a full-size version of the hero image on the index page. The image in particular was chosen because of 3 core elements relatable to the author:
 - The image is somewhat abstract in nature, and created with a geometric style that is favoured by the author.
@@ -123,7 +135,11 @@ Above is a full-size version of the hero image on the index page. The image in p
 - The naturalistic art style involving a mountain evokes feelings of liberation and beauty, and that one can do anything - relating to the author aspiring to be a developer and having ambition towards aesthetic design.
 - Ultimately the image symbolises the characteristics of the author; the love for maths, graphic/computer design and to challenge oneself.
 
+<details>
+ <summary>View alternate hero image</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6188fb52-612e-420f-afb0-9bb474566f22)
+</details>
 
 Lastly, the above image is the hero background used on all pages other than the home page. It has characteristics of the index page image but simplified for use as a texture so that it does not distract from the page content.
 It retains elements of colour gradients and geometric styling so that it still remains consistent with the overlall theme. This image has a filter(hue-rotate) applied to it on the portfolio and contact pages to differentiate them by colour.
@@ -152,53 +168,144 @@ The kay interactive elements on the site can be broken down into the following:
 
 ## Wireframes
 Mobile-wireframe
+<details>
+ <summary>View mobile wireframe</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/88ae27ad-97e3-457e-bcde-7128b7bf4b9d)
+</details>
 
 Tablet-wireframe
+<details>
+ <summary>View tablet wireframe</summary>
+ 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/db07b777-86e7-410e-9e58-6c5cd48c6cb9)
+</details>
 
 The wireframe used to sketch out the concept of the site was created via Balsamiq Wireframes. 
 The screeenshots above show the general structure and desired elements of various pages at 2 screen sizes; mobile and tablet. 
 Larger screen sizes would expand on the structure used to display the site on a tablet and scaled up for the most part.
 
-# Features
-🚨**Required** 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
-
 ## Implemented Features
-🚨**Required** 
 
-It's easiest to break this section down into the header, footer, and each page/layer/signification section of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
+### Navigation
 
-Don't forget your 404 error page.
+## Header
+<details>
+ <summary>View mobile header</summary>
+ 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/aed8def9-9fd1-43f8-bef3-4ac706f13117)
+</details>
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<details>
+ <summary>View mobile header (collapsed)</summary>
+ 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/48ff40c7-b720-47b9-ad25-d1d6e74560b6)
+</details>
+
+<details>
+ <summary>View larger header</summary>
+
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/565450c2-4dfb-4319-936e-ad730e10d103)
+</details>
+
+- <strong>Fixed header:</strong> The site features a fixed header that remains in place when scrolling, so the user can always navigate to another page or back to the top.
+- <strong>Drop-down menu:</strong> On mobile screens the site features a drop-down menu with icons and active-page styling to allow intuitive navigation of other pages using touchscreens.
+- <strong>Nav-bar:</strong> On tablets and larger screens a fixed horizontal nav-bar shows all page links with icons and active-page styling. On even larger monitors the max-width of the nav-bar is fixed so that it doesn't stretch too much.
+
+## Footer
+<details>
+ <summary>View mobile footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/df150f1b-47f2-4956-a790-64d3b9c96f35)
+</details>
+
+<details>
+ <summary>View tablet footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/3628ecda-04d4-4820-957d-fbedf3ccfc39)
+</details>
+
+<details>
+ <summary>View laptop footer</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b466619a-1436-4217-8fbf-e59f166f17eb)
+</details>
+
+<strong>Responsive footer:</strong> The footer goes through 3 stages when increasing in screen size:
+- Mobile: With less screen space a simplified footer only shows social network links with icons.
+- Tablet: Contact details are added with between the icons.
+- Laptop and larger: Contact details are given a divider, flexed into a horizontal row and re-ordered to before the icons.
+
+## Home Page
+<details>
+ <summary>View home page content (mobile)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/c2c6e1c1-b4aa-416a-85e9-3c6da007f8b2)
+</details>
+
+<details>
+ <summary>View home page content (tablet)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/64e0286c-fda6-46ad-b420-bf15de84b7bf)
+</details>
+
+<details>
+ <summary>View home page content (laptop)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/0da1e9c9-95fa-4549-9933-9d7f438f6304)
+</details>
+
+<strong>Responsive content:</strong> The text boxes go through 3 stages when increasing in screen size:
+- Mobile: With less screen space the text box touches the edges of the screen.
+- Tablet: Max-width is set.
+- Laptop and larger: Higher max-width is set.
+
+## Contact Page
+
+<details>
+ <summary>View CV page (mobile)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/20cf1ca6-eb74-4b97-a7d7-66daff62f4f9)
+</details>
+
+<details>
+ <summary>View CV page (tablet)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/d0d26a81-4173-4082-9a2c-f65f56ac58f3)
+</details>
+
+<details>
+ <summary>View CV page (laptop)</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/40e0f237-66ad-4d56-8c48-f23e27c47efd)
+</details>
+
+<strong>Responsive content:</strong> The text boxes go through 3 structural changes when increasing in screen size:
+- Mobile: With less screen space the text box touches the edges of the screen and flows as a column.
+- Tablet: Content is displayed in a grid layout.
+- Laptop and larger: Left-hand content is fixed as a side-bar while the remaining content scrolls. Max-width and margins are also set to shift content into available space without disrupting the format.
+
+## 404 Page
+
+<details>
+ <summary>View 404 error page</summary>
+ 
+ ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/6542f254-244f-457d-abb1-514331950170)
+</details>
 
 ## Future Features
-🚀 **merit & beyond**
 
-Use this section to discuss plans for additional features to be implemented in the future
+- **Priority-low:** With the use of JavaScript this project will aim to have subtle animations that improve the overall style and user experience even further.
+- **Priority-Medium:** A 'thank you' page in the same format and style as the site, which displays after successfully submitting a form.
+- **Priority-Medium:** Form submission functionality that sends data to the author for analysis and response.
+- **Priority-High:** Add to the portfolio page with multiple projects as the author's portfolio increases over time.
+- **Priority-High:** Responsive video functionality to the portfolio page, where other projects will be displayed.
 
-If you end up not developing some features you hoped to implement, you can include those in this section too.
-
+### Features not present
+Due to the scope of the project, the portfolio page content was ommited from this site as it was dependent on the finished site before working on. 
+With the large ammount of styling and bugs along the way not enough time was reserved to coomplete this.
 
 ## Testing
-🚨**Required** 
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the Features section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Validation Testing
-🚨**Required** 
-
-In this section you should write up any websites you used to validate your code and include screenshots.
-
-**Validation issues are an automatic failure** You should run these about 3 times:
-- when you first deploy your site
-- just when you think you are done testing
-- right before you submit because 😼, ⚽, 🐶 & 👼 can eliminate a closing tag or curly bracket without you noticing.
 
 ### CSS Validation
 🚨**Required** 
@@ -213,7 +320,14 @@ If you only have one CSS file used on all pages, you only need to run this once 
 ![img.png](documentation/images/css-validation.png)
 
 ### HTML Validation
-🚨**Required** 
+
+All .html files pass file validation using the [Nu Html Checker](https://validator.w3.org/).
+
+<details>
+ <summary>View index.html validation</summary>
+ 
+ 
+</details>
 
 If you only have one HTML file for your project, you only need to run this once for your deployed url, but if you have different files even for a thankyou or 404, run it by direct input per file or by deployed url per file.
 
