@@ -203,7 +203,7 @@ main {
     /* Blur-filter and round edge styling for repeat use */
     padding-top: 20px;
     padding-bottom: 10px;
-    background-color: oklch(0% 0 0 / 30%);
+    background-color: oklch(0% 0 0 / 50%);
     backdrop-filter: blur(25px);
     box-shadow: var(--container-shadow);
     border-radius: 15px;
