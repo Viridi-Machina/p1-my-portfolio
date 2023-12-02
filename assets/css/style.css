@@ -789,6 +789,8 @@ footer h3 {
     .footer-divider {
         /* Displays footer divider on larger screens only */
         display: inline-block;
+        align-self: center;
+        margin-bottom: 5px;
     }
 
     /* CV page */
