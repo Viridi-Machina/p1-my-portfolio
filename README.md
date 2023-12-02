@@ -1,18 +1,3 @@
-### Cheatsheets and Auto Generation Tools
-
-Markdown's not all that easy so sometimes you may want to use some tools to make tables. 
-
-- [Markdown Cheatsheet](https://guides.github.com/features/mastering-markdown/)
-- [markdown table generator](https://www.tablesgenerator.com/markdown_tables) - used to help with documentation table formatting
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/) - used to create table of contents (be weary it does have some bugs if you have dashes or trailing spaces in your headers)
-- [readme.so](https://readme.so/) - if you don't want to learn markdown, this tool might help you
-
-
-# Table of Contents
-Copy your readme to http://ecotrust-canada.github.io/markdown-toc/ to make a table of contents.  This will help assessors to see the structure of your readme. Just test it out ast this tool isn't perfect. It tends to mess up with special characters like dashes.
-
-====================================== The Sections you Fill in are below with some instructions ============================== -->
-
 # P1 - My Portfolio
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/e7581d64-d23a-4cd1-81d1-beea0aaba843)
 
@@ -29,10 +14,60 @@ Users will be able to intuitively navigate a modern and tasteful landing page wh
 Jacen Green
 
 ## Contents
-
-Generate after readme is complete by copying and pasting your readme from this point & below into this tool:
-- [mardown table of contents generator](https://ecotrust-canada.github.io/markdown-toc/)
-**NOTE:** It does have some bugs if you have dashes or trailing spaces in your headers
+<details>
+ <summary>View Contents</summary>
+ 
+- [P1 - My Portfolio](#p1---my-portfolio)
+  * [Summary](#summary)
+  * [Author](#author)
+  * [Contents](#contents)
+  * [UX](#ux)
+    + [Target Audience](#target-audience)
+    + [Project Goals](#project-goals)
+    + [User Stories](#user-stories)
+      - [Employer](#employer)
+      - [Experienced Developer](#experienced-developer)
+      - [New Developer](#new-developer)
+    + [Owner Stories](#owner-stories)
+  * [Design Choices](#design-choices)
+    + [Colors](#colors)
+    + [Typography](#typography)
+    + [Imagery](#imagery)
+    + [Animations and Transitions](#animations-and-transitions)
+  * [Site Structure](#site-structure)
+  * [Design Elements](#design-elements)
+  * [Wireframes](#wireframes)
+  * [Implemented Features](#implemented-features)
+    + [Navigation](#navigation)
+  * [Header](#header)
+  * [Footer](#footer)
+  * [Home Page](#home-page)
+  * [Contact Page](#contact-page)
+  * [404 Page](#404-page)
+  * [Future Features](#future-features)
+    + [Features not present](#features-not-present)
+  * [Testing](#testing)
+    + [CSS Validation](#css-validation)
+    + [HTML Validation](#html-validation)
+  * [Compatibility and Responsive Testing](#compatibility-and-responsive-testing)
+  * [Manual Testing](#manual-testing)
+  * [Defect Tracking](#defect-tracking)
+  * [Defects of Note](#defects-of-note)
+  * [Outstanding Defects](#outstanding-defects)
+  * [Core Web Vitals](#core-web-vitals)
+  * [Accessibility Testing](#accessibility-testing)
+    + [Keyboard Navigation](#keyboard-navigation)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks, Libraries & Programs Used](#frameworks--libraries---programs-used)
+- [Deployment](#deployment)
+  * [Deploy to GitHub Pages](#deploy-to-github-pages)
+  * [Forking The Repository](#forking-the-repository)
+- [Credits](#credits)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+</details>
 
 ## UX
 
@@ -438,7 +473,7 @@ The above screenshot was taken from [web.dev](https://web.dev/measure/) where th
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/580f735f-8292-49c9-81bf-68f2db462386)
 
 The above image shows 2 key reasons why the score has been affected.
-1. There is no label for the form element <input type="checkbox">, but this is because the content contained must be a <i> fonticon.
+1. There is no label for the form element input-type: checkbox, but this is because the content contained must be a fonticon.
 2. There are apparent contrast issues with the white text. In this case however, I believe that this hsa been flagged as a false-positive.
 
 ![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/00268972-3659-4709-ae50-cfffd3262cfa)
@@ -502,35 +537,24 @@ https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/0e4cfc25-cc8c
 Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Forking The Repository
-🚀 **merit & beyond**
 
-A fork creates a completely independent copy of Git repository. In contrast to a fork, a Git clone creates a linked copy that will continue to synchronize with the target repository, so if you want to ensure other people don't commit to your public repo, you might want to tell them to fork the repository :) 
+![image](https://github.com/Viridi-Machina/p1-my-portfolio/assets/146846939/b6011d57-cc6f-4d54-8331-d2cc79ada78f)
 
-## Run Locally With GitPod
-🚀 **merit & beyond**
-
-Enumerate and write the steps of how to run a project locally via gitPod. Include Screenshots to maximize the impact of the instructions.
+To fork a repository you must not be the owner of it already. If you are looking at someone else's repo you will be able to navigate to the fork button indicated in the image above.
 
 # Credits
-🚨**Required** 
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc. that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did.  The accessors expect something here, there is no way you didn't have to get help on making such a nice project.
+- [StackOverflow](https://stackoverflow.com/) - Multiple issues over many threads have been explained from the help given on this site. It has proven to be an exceptional resource for troubleshooting and trying new ways of coding.
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) on youtube - Kevin's tutorials and genuine enthusiasm for coding with CSS specifically have helped tremendously with topics such as positioning and responsive deisgn.
+- [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) on youtube - Another content creator who walks-through and offers guides on many css topics of frustration, as well as general tips and tricks.
+- [MDN](https://developer.mozilla.org/en-US/) - This site has proven essential throughout the learning process so far regarding html and css standards.
 
 ## Content
-🚨**Required** 
-
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site. If you truly are an expert in the content you provided, say that due to your exposure/experience of the topic covered, you created the content on your own.
+Some content has been taken from the Love running project to get started with the header, otherwise the rest of the code is my own work which I have spent nearly 5 weeks on to learn all the CSS skills put in place to complete this project.
 
 ## Media
-🚨**Required** 
-
-Make a list of sites you used images, icons & youtube, & audio files from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit. If you took the images yourself, give yourself credit.
-
-You should not be using images taken from copyrighted sites, but only royalty free ones. Try typing `!copyright` in slack and see what help it gives you for this topic.
+- [Etsy Creator](https://www.etsy.com/uk/listing/1434066291/geometric-lake-and-mountain-3-digital?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_uk_en_gb_e-art_and_collectibles-prints-digital_prints&utm_custom1=_k_CjwKCAjwkY2qBhBDEiwAoQXK5YtFF5RTxpAGHCvKSo4PhYEXfdH-GG6y6nd_EiV-a7fY0t7YmXeDERoC_YwQAvD_BwE_k_&utm_content=go_12576524531_120383100700_507649705825_pla-328046931108_c__1434066291engb_102858184&utm_custom2=12576524531&gad_source=1&gclid=CjwKCAjwkY2qBhBDEiwAoQXK5YtFF5RTxpAGHCvKSo4PhYEXfdH-GG6y6nd_EiV-a7fY0t7YmXeDERoC_YwQAvD_BwE) - From whom I purchased the rights for using the artwork for the home page background.
+- [Royalty Free site Pixabay](https://pixabay.com/illustrations/color-triangle-geometric-textured-2174049/) - Here the geometric background image for other pages in the site was found.
 
 ## Acknowledgments
-🚀 **merit & beyond**
-
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
-
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+- **Code Institute Love Running Project** - The Love Running Project was used as a backbone to get started with fundamentals such as the boilerplate code and some good practices to get a home page set up with a fixed header and footer at the bottom of the page.
